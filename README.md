@@ -1,22 +1,21 @@
-# 🌦 Week07 Bootcamp2019a Project: Weather API
+# My Weather API App
+In this project I created a web app that uses a weather api to grab the weather of a specific city.
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-### How to submit your code for review:
+![alt tag](weather.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, JavaScript, Framework of choice
+
+I built this website using html so the user can input the location they want the weather from inside forms. Also I used JS to fetch the api for the information displayed when a city and country are entered. 
+
+## Lessons Learned:
+
+When creating this project I learned how to properly find the api I'm looking for and call it within in my JS. Also how to display that information in my HTML.
+
+
+
+
+
+
