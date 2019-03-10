@@ -9,5 +9,4 @@ Link to project: coming soon...
 Tech used: HTML, CSS, JavaScript,
 
 Optimizations
-(optional)
  Wanted to present completed API's will come back an enhance the css.
