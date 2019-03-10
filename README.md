@@ -6,7 +6,6 @@ Link to project: coming soon...
 ![alt](weather.gif)
 
 
-How It's Made:
 Tech used: HTML, CSS, JavaScript,
 
 Optimizations
