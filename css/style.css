@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background-image: url("../weather.gif");
+  background-size: cover;
+}
+
+section{
+  text-align: center;
+  margin-top: 50px;
+}
