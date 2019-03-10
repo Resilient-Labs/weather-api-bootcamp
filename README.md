@@ -4,6 +4,8 @@ Website that allows you to enter location and get weather.
 Link to project: coming soon...
 
 ![alt](weather.gif)
+
+
 How It's Made:
 Tech used: HTML, CSS, JavaScript,
 
