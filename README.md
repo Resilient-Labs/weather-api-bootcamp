@@ -1,22 +1,17 @@
-# 🌦 Week07 Bootcamp2019a Project: Weather API
+# Weather Map
+The objective was to use a weather API to allow user to input city and country and receive a temperature in Fahrenheit
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+![Site screenshot](screenshot.png)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, Javascript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Really just used some basic HTML & CSS along with the ES6 I used after fetching the data from weathermap.
+
+## Optimizations
+There's a lot that can be done here, like retrieving and displaying other weather information like precipitation. Could also add in Javascript to automatically capitalize the first letter in the city and country names in the result, even if users inputted lowercase. Also need to do general styling to make it look nice.
+
+## Lessons Learned:
+
+I once again learned how annoying scope can be and how to counter that by using parameters & arguments
