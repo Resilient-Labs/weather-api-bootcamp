@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: url(clouds.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+section{
+  padding: 20px;
+  height: 200px;
+  margin: 30px 0 0 20%;
+  float: left;
+  border-radius: 50px;
+  background: rgba(240,248,255, 0.3);
+}
+input{
+  padding: 5px 10px;
+  border: 1px solid rgb(230,230,250);
+  border-radius: 30px;
+}
+h1, h2{
+  font-family:sans-serif;
+  font-weight: lighter;
+}

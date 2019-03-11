@@ -18,7 +18,7 @@ function weather(e){
 //temp value from json default is in kelvin so use a converter function to display the proper temp in the DOM
     document.querySelector("#temp").innerHTML =
 //pass the json temp into conversion function
-     kelToFar(myJson.main.temp));
+     `The Weather is currently ${kelToFar(myJson.main.temp)}`);
 }
 
 //make conversion function to change kelvin temp to farenheit
