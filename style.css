@@ -1,0 +1,26 @@
+*{
+  text-align: center;
+}
+body{
+  background-color: lightblue;
+}
+div{
+  margin: auto;
+}
+h1{
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+h2{
+  font-style: italic;
+}
+p{
+  font-size: 25px;
+  margin: 3px;
+}
+h3{
+  font-size: 50px;
+}
+button,input{
+  font-size: 50px;
+}
