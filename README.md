@@ -1,4 +1,4 @@
-# Weather App
+# 🌦 Weather App
 
 ###### I fetched the JSON objects from Openweathermap API (openweathermap.org/api) to display the corresponding temperature of the user-inputed City, Country.
 
