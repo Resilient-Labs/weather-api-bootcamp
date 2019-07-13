@@ -7,7 +7,7 @@
 ![alt tag](screenshot.png)
 
 ## Design and Development:
-**Tech Used** HTML, CSS, JavaScript: 
+**Tech Used** HTML, CSS, JavaScript, API, JSON: 
 Using Open Weather's API, users can enter their city and country (2 letter code) to get the temperature in Farenheit.
 
 ## Reflections:
