@@ -2,7 +2,7 @@
 
 ### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-**View project in browser:** endev-weather-simple-api
+**View project in browser:** https://endev-weather-simple-api
 
 ![alt tag](screenshot.png)
 
