@@ -1,0 +1,50 @@
+h1{
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: navy;
+  margin: 0;
+}
+header{
+  width: 100%;
+  height:100px;
+  background-color: lightblue;
+  float: left;
+}
+
+form {
+margin-left: 40%;
+margin-bottom: 30px;
+}
+
+
+main{
+  width: 100%;
+  height: 500px;
+  float: left;
+  background-color: lightgreen;
+}
+
+span{
+  font-size: 3rem;
+  color: chocolate;
+  margin-left: 45%;
+}
+
+p{
+  text-align: center;
+  font-size: 2rem;
+  color: cadetblue;
+}
+
+input{
+
+  width: 30%;
+  padding: 3%;
+}
+input[type=text] {
+  border: 1px dotted #999;
+  border-radius: 43px;
+
+  -webkit-appearance: none;
+}
