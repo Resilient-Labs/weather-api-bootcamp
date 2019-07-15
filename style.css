@@ -1,0 +1,27 @@
+* {
+box-sizing: border-box;
+}
+body {
+  font-family: 'Bree Serif', serif;
+  background: url("earth.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1450px;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+  margin-left: 10%;
+}
+button {
+  background-color: skyblue;
+}
+input {
+  height: 35px;
+  width: 10%;
+}
+p {
+  color: white;
+  font-size: 25px;
+}

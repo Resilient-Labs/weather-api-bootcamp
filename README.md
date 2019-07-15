@@ -1,22 +1,10 @@
-# 🌦 Project: Weather API
+# Weather API Project
+This weather project utilized an openweathermap api. The user will input a city and receive the weather for this city.
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+**Tech used:** HTML, CSS, & JavaScript
 
-### How to submit your code for review:
+## Lessons Learned:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+With the weather returning in kelvin it took me some time to figure out how to convert the result from kelvin to Fahrenheit. After doing that, I then learned I had to getElementById within the temp converter function.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![alt tag](weather.png)
