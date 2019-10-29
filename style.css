@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+body {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb9%2FStormclouds.jpg%2F1200px-Stormclouds.jpg&f=1&nofb=1);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: lightgreen;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+}
+input {
+  width: 30%;
+  margin-left: 10%;
+}
