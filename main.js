@@ -11,6 +11,10 @@ document.querySelector("button").onclick= () => {
         p = String(response.main.temp);
         console.log(typeof p);
         document.querySelector("span").textContent = p;
+      })
+      .catch(err => {
+        console.log(`error ${err}`);
+        alert('sorry, there are no results for your search');
       });
   }
 };
