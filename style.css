@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("mapweather.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+
+h1, button, input, p{
+  font-family: sans-serif;
+}
+
+h1{
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 3em;
+  color: RGB(145,180,181);
+  text-shadow: 1px 1px 3px black;
+}
+
+h2{
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 3em;
+  color: RGB(145,180,181);
+  text-shadow: 1px 1px 3px black;
+}
+
+input{
+  width: 70%;
+  padding: 5px 10px;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: 1px solid rgb(250, 128, 114);
+  /* background: rgb(230, 230, 250); */
+}
+
+form{
+  padding-left: 23%;
+  display: block;
+  margin-top: 0em;
+}
+
+button{
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(250, 128, 114);
+  background: rgb(230, 230, 250);
+}
