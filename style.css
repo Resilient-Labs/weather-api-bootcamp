@@ -1,0 +1,42 @@
+body{
+  background-color:lightblue;
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  }
+
+h2{
+  font-size: -webkit-xxx-large;
+  color: #46b;
+  display: flex;
+  justify-content: center;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  color:#46b;
+}
+input{
+  width: 300px;
+  height:29px;
+  align-items: center;
+  margin-left: 2em;
+  border-radius: 10em;
+
+}
+
+button{
+  border-radius: 20%;
+  background: none;
+
+}
+section{
+  display: flex;
+  justify-content: center;
+}
+.refresh{
+  display: flex;
+  justify-content: center;
+}
