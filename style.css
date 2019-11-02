@@ -1,0 +1,32 @@
+html {
+background-image: linear-gradient(to bottom, #ffffff, #f3f3fe, #e5e7fe, #d5dbff, #c2d1ff, #b2c7ff, #a0beff, #8db5ff, #7caaff, #6b9eff, #5993ff, #4687ff);
+height: 100vh;
+}
+body {
+  margin-top: 18%;
+  font-family: 'Montserrat', sans-serif;
+}
+form, p, input, button {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+input, button, p {
+  font-size: 50px;
+}
+::placeholder {
+  font-family: 'Montserrat', sans-serif
+}
+button {
+  background-color: rgb(65, 163, 209);
+  color: white;
+  cursor: pointer;
+  outline: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+button:hover {
+  background-color: rgb(50, 122, 156)
+}
