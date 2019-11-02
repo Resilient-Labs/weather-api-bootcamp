@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 15px;
+  background-image: url(clouds2.jpeg);
+  text-align: center;
+  font-family: 'Jomolhari', serif;
+}
+h1{
+  color: white;
+  font-size: bold;
+  font-weight: bold;
+  font-size: 110px;
+}
+input  {
+  width: 23%;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button {
+  height: 20px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: aliceblue;
+}
+#result{
+  font-size: 25px;
+}
