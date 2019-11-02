@@ -1,22 +1,11 @@
-# 🌦 Project: Weather API
+ 🌦 Weather API
+ 
+  
+ Use this application to enter a city and country in order to find out what the current temperature is.
+ This utilizes HTML, CSS, Javascript, and a weather API.
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+ View here:  https://keen-jennings-ff8231.netlify.com
 
-### How to submit your code for review:
+![Image](img/weather.png "Weather page")
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
