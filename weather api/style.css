@@ -1,3 +1,28 @@
 *{
   box-sizing: border-box;
 }
+p{
+  font-size: 30px;
+  text-align: center;
+}
+
+body{
+  background-image: url('weather.jpg');
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+text-align: center;
+
+}
+h3{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width:20%;
+}
+
+input{
+justify-content: center;
+
+}
