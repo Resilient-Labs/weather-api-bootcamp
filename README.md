@@ -1,22 +1,16 @@
-# 🌦 Project: Weather API
+# Simple Weather API
+This project is a complex weather API. This weather API allows the user to input a city and country and it will display the current temperature(in fahrenheit). 
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+**Link to project:** https://hopeful-hamilton-34abcb.netlify.com/
 
-### How to submit your code for review:
+![alt tag](https://github.com/TimTran-Dev/weather-api-bootcamp/blob/answer/Weather%20Map%20API.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript
+
+I created a simple API design for weather web application with a simple input and button. I used CSS to margin the input and button to center them. Next I centered the current temperature of that city & country temperature. Lastly I used JavaScript to create the behavior with the input and button to request for of the current temperatures for any city and country that the user requests for.
+
+## Lessons Learned:
+
+I learned that you can hardcode multiple variables into the URL of the API to allow the users to input whatever they want and the API will request for the users input.
