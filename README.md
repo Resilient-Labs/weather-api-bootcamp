@@ -4,7 +4,7 @@
 
 ## Try it out here: https://serene-clarke-0beb10.netlify.com/ 
 
-![alt-text](weather-api-bootcamp/css/weather-api.png)
+![alt-text](weather-api-bootcamp/css/images/weather-api.png)
 
 Technologies Used: 
 - HTML 
