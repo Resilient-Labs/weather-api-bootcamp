@@ -2,21 +2,15 @@
 
 ### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-### How to submit your code for review:
+This web app returns the temperature in degrees Fahrenheit when you input and submit any city name and country code.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Link to project:** https://happy-beaver-93acb5.netlify.com/
+![alt tag](https://github.com/anthonybetances/weather-api-bootcamp/blob/answer/Screen%20Shot%202019-11-17%20at%202.06.13%20AM.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+**Tech used:** HTML, CSS, JavaScript, API
+
+## How To Use:
+  1. Click on the link above.
+  2. Enter a city name and country code.
+  3. Click the "submit" button, and the temperature for that city appears.
