@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+
+#temp{
+    height: 20px;
+    width: 10%;
+    border: 1px, solid, red;
+
+}
+ span{
+     color:red;
+ }
+
+ button{
+     height: 50px;
+     width: 20%;
+     background-image: url(/assets/gif/cloudy_sky.gif); 
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: rgb(221, 40, 40);
+     font-size: 1.8rem;
+     font-weight: bold;
+     border-radius: 20px;
+     border: none;
+     box-shadow: 5px 5px rgba(0, 0, 255, 0.377);
+     margin-bottom: 20px;
+     outline: 2px dotted red;
+ }
