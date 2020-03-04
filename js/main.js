@@ -1,55 +1,64 @@
-const city
-const country
+let key = '5c601f60649e4273785048d62e6a923d'
 
-document.querySelector(`#btn`).addEventListener("click", (e) =>{
-
-    city = document.querySelector(`#city-name`).value 
-    country = document.querySelector(`#country-name`).value
-
-})
+let city  //"Boston"
+let state  //"MA"
+let country  //"US"
 
 
-/*
-let userAnswer = prompt("What cocktail would you like? ")
-fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${userAnswer}`)
 
-    .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
+document.querySelector(`#btn`).addEventListener("click", (e) => { getUserLocation() })
+
+
+function getUserLocation(){
+
+  city = document.querySelector(`#city-name`).value 
+  state = document.querySelector(`#state-name`).value
+  country = document.querySelector(`#country-name`).value
+
+  city.toLowerCase()
+  state.toLowerCase()
+  country.toLowerCase()
+
+  if (country.length > 2){
+
+    alert("Enter your country abbreviation")
+
+
+  }
+
+
+  getWeather()
+
+  console.log(city)
+  console.log(state)
+  console.log(country)
+}
+
+function getWeather(){
+
+fetch (`http://api.openweathermap.org/data/2.5/weather?q=${city},${state},${country}&appid=${key}&units=imperial&lang= en`)
+
+    .then(msg => msg.json()) // parse response as JSON (can be res.text() for plain response)
 
     .then(response => {
 
-      let imgUrl = []
-      response.drinks.forEach((el)=>{
-
-        imgUrl.push(el.strDrinkThumb)
-
-      })
-      let count = 0
-
-      setInterval(()=>{
-        if( count >= imgUrl.length ){
-
-          count = 0
-
-        }
-
-        document.querySelector('img').src = response.drinks[count].strDrinkThumb
-        count++
-
-      },500)
+    document.querySelector(`#temp`).textContent = `${response.main.temp}`
+    
+    //console.log(document.querySelector(`#unit`))
+    document.querySelector(`#unit`).style.display =`inline`
 
 
-      console.log(imgUrl);
-      document.querySelector('img').src = response.drinks[0].strDrinkThumb
-      document.querySelector('p').textContent = response.drinks[0].strInstructions
-      console.log(response);
-      console.log(response.drinks[0].strDrinkThumb);
+
+ 
     })
 
 
-
     .catch(err => {
+
         console.log(`error ${err}`)
         alert("sorry, there are no results for your search")
     });
 
-    */
+
+}
+  

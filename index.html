@@ -11,13 +11,15 @@
 
     <form action="">
         <label for="city">City:</label>
-        <input type="text" id="city-name" placeholder="Enter your city"><br><br>
+        <input type="text" id="city-name" placeholder="e.g. boston, New York">
+        <label for="city">State:</label>
+        <input type="text" id="state-name" placeholder="e.g. CA, NY">
         <label for="city">Country:</label>
-        <input type="text" id="country-name" placeholder="Enter your country"><br><br>
-        <button id = "btn">Get weather</button>
+        <input type="text" id="country-name" placeholder="e.g. US, CA ">
+        <button type="button" id = "btn">Get Weather</button>
     </form>
     <span>It is currently:</span>
-    <span id = temp> </span>
+    <span id = "temp"> </span><span id ="unit"> F &#176;</span>
 
 
 
