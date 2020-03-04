@@ -19,14 +19,6 @@ function getUserLocation(){
   state.toLowerCase()
   country.toLowerCase()
 
-  if (country.length > 2){
-
-    alert("Enter your country abbreviation")
-
-
-  }
-
-
   getWeather()
 
   console.log(city)
