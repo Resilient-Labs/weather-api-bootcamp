@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/bird.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  border: .1em solid blue;
+  text-align: center;
+  border-style: none;
+  margin-left: 42%;
+  padding: 5px;
+  margin-top: 10%;
+  width: 12%;
+  border-radius: 3%;
+  background-color: #1A91BB;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #C98525;
+  width: 5%;
+  margin-left: 1%;
+  border-style: none;
+  border-radius: 8%;
+  padding: 5px;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 3%;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+/* *****************
+      MEDIA Q
+*******************/
+@media screen and (max-width: 520px) {
+  body {
+    background-size: auto;
+  }
+
+  input {
+    margin-left: 10%;
+    padding: 10px;
+    margin-top: 15%;
+    width: 50%;
+  }
+
+  button {
+    width: 15%;
+    margin-left: 1%;
+    padding-bottom: 11px;
+    padding: 12px 0;
+  }
+
+  p {
+    margin-top: 18%;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 1580px) {
+  body {
+    background-size: auto;
+  }
+
+  input {
+    margin-left: 35%;
+    padding: 10px;
+    margin-top: 15%;
+    width: 20%;
+  }
+
+  button {
+    width: 9%;
+    margin-left: 1%;
+    padding-bottom: 11px;
+    padding: 12px 0;
+  }
+
+  p {
+    margin-top: 5%;
+  }
+}
