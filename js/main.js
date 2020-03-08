@@ -4,7 +4,7 @@
     fetchTemp: () => {
     const input = document.querySelector('input').value;
     //Subtract 273.15, multiply by 1.8, then add 32.
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&APPID=a792edb08dbc31353e15c3480d1ab603`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&APPID=daa6b0a8372c977140eac725b46c81a4`)
         .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
         .then(response => {
         console.log(response)
