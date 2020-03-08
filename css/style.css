@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(weather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input{
+  font-size: 32px;
+}
+span{
+  font-size: 22px;
+
+}
+button{
+  font-size: 32px;
+}
+p{
+  font-size: 40px;
+  margin-left: 27%;
+}
