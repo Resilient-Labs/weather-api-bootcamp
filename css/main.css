@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(we.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+h1{
+  color:blue;
+  text-align:center;
+}
+section{
+  margin-left: 45%
+}
+span{
+  color:white;
+}
