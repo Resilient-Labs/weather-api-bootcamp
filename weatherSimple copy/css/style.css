@@ -1,0 +1,29 @@
+body{
+  background-image: url(weather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  font-size: 8px;
+  color: white;
+}
+
+header p{
+  font-size: 5px;
+  color: white;
+}
+
+input{
+  height: 10px;
+  width: 20%;
+  border-radius: 50px;
+}
+
+button{
+  font-size: 3px;
+}
+
+#paragraph{
+  color: white;
+}
