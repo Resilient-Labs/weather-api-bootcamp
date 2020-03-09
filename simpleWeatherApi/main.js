@@ -1,21 +1,22 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oxanium&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-  </head>
-  <body>
-    <h1><img src="images/beerFlip.png" alt="beer"> "CLINK" <img src="images/beer.png" alt="beer"></h1>
-    <p>Curious which breweries are located in your city? Enter your city in the search bar to find out!</p>
-    <form>
-      <input type="text" placeholder="e.g. Boston">
-      <button type="button">search</button>
-    </form>
-    <p id="numberOfBrew"></p>
-    <ul></ul>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
-</html>
+//House Gardner worked on this project as a group.
+
+  let simpleWeatherApi = {
+    button: document.querySelector('button'),
+    fetchTemp: () => {
+    const input = document.querySelector('input').value;
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&APPID=a792edb08dbc31353e15c3480d1ab603`)
+        .then(res => res.json())
+        .then(response => {
+        console.log(response)
+        let fahrenheit = Math.floor((response.main.temp - 273.15) * 1.8 + 32) + "F" + "°";
+        document.getElementById("temperature").textContent = fahrenheit;
+        })
+        .catch(err => {
+          console.log(`error ${err}`);
+          //alert("sorry, there are no results for your search");
+        })
+      }
+    }
+
+  simpleWeatherApi.button.addEventListener('click', simpleWeatherApi.fetchTemp);
+
