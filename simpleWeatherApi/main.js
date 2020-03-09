@@ -1,17 +1,21 @@
-const button = document.querySelector('button');
-
-
-button.addEventListener('click', () => {
-let input = document.querySelector('select').value
-
-fetch(`http://www.boredapi.com/api/activity?participants=${input}`)
-    .then(res => res.json())
-    .then(response => {
-      console.log(response)
-      document.getElementById("paragraph").textContent = response.activity
-    })
-    .catch(err => {
-        console.log(`error ${err}`)
-        alert("sorry, there are no results for your search")
-    })
-  })
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oxanium&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+  </head>
+  <body>
+    <h1><img src="images/beerFlip.png" alt="beer"> "CLINK" <img src="images/beer.png" alt="beer"></h1>
+    <p>Curious which breweries are located in your city? Enter your city in the search bar to find out!</p>
+    <form>
+      <input type="text" placeholder="e.g. Boston">
+      <button type="button">search</button>
+    </form>
+    <p id="numberOfBrew"></p>
+    <ul></ul>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
