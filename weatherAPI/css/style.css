@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  background-image: url("../images/weather_background.jpg");
+  background-size: cover;
+  text-align: center;
+  align-content: center;
+  font-family: "Luckiest Guy", sans-serif;
+  margin-top: 0;
+}
+header{
+  height: 100px;
+  width: 100%;
+  color: red;
+  font-weight: bold;
+  margin-top: 0;
+}
+h1 {
+  font-size: 40px;
+}
+header p {
+  font-size: 30px;
+}
+.searchBox {
+  width: 100%;
+  margin: 10% auto;
+  color: red;
+}
+input {
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Luckiest Guy", sans-serif;
+}
+button {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+#showWeather p {
+  background: white;
+  font-size: 25px;
+  color: red;
+  margin: 0;
+  padding: 3%;
+  border-radius: 60%;
+}
+#showWeather p:first-of-type {
+}
