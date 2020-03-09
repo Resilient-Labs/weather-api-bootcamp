@@ -1,0 +1,42 @@
+body{
+  background-image: url("images/city.jpg");
+  background-size: 90rem;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  margin-bottom: 0px;
+
+}
+
+p{
+  color: white;
+  font-family: "arial";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+input{
+  outline: none;
+  border: white;
+  font-size: 1.3rem;
+  border-radius: 2px;
+}
+
+button{
+  outline: none;
+  background-color: rgb(37, 81, 142);
+  border: rgb(37, 81, 142);
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
