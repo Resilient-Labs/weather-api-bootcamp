@@ -5,7 +5,7 @@ html{
     font-size: 10px;
 }
 body {
-    background-image: url(/weather-api-bootcamp/assets/img/dark_world.jpg);
+    background-image: url(/assets/img/dark_world.jpg);
     background-color: rgb(20, 20, 20);
     background-repeat: no-repeat;
     background-size: 120%;
@@ -44,7 +44,7 @@ input{
      margin-left: 40%;
      height: 50px;
      width: 20%;
-     background-image: url(/weather-api-bootcamp/assets/gif/cloudy_sky.gif); 
+     background-image: url(/assets/gif/cloudy_sky.gif); 
      background-color: antiquewhite;
      background-size: cover;
      background-repeat: no-repeat;
