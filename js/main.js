@@ -20,35 +20,26 @@ function getUserLocation(){
   country.toLowerCase()
 
   getWeather()
-
-  console.log(city)
-  console.log(state)
-  console.log(country)
 }
 
 function getWeather(){
 
 fetch (`http://api.openweathermap.org/data/2.5/weather?q=${city},${state},${country}&appid=${key}&units=imperial&lang= en`)
 
-    .then(msg => msg.json()) // parse response as JSON (can be res.text() for plain response)
+    .then(msg => msg.json()) 
 
     .then(response => {
 
-    document.querySelector(`#temp`).textContent = `${response.main.temp}`
-    
-    //console.log(document.querySelector(`#unit`))
-    document.querySelector(`#unit`).style.display =`inline`
+    document.querySelector(`#temp`).textContent = `${response.main.temp}` // displays temp to the DOM
+    document.querySelector(`#unit`).style.display =`block`                // unit(F) appears on the DOM
 
-
-
- 
     })
 
 
     .catch(err => {
-
         console.log(`error ${err}`)
-        alert("sorry, there are no results for your search")
+        alert("sorry, your location is not in our records")
+
     });
 
 
