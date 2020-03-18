@@ -1,7 +1,7 @@
 # 🌦 Project: Weather API
 ### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-![weatherApi](weather.jpg)
+![weatherApi](readme.png)
 
 # Technology Used:
 ### HTML, Javascript, Api, css
