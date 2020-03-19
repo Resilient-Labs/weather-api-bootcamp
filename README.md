@@ -1,22 +1,16 @@
-# 🌦 Project: Weather API
+# Simple Weather API
+#### Project Scope:  Input your location and click search to look up the temperature using the Open Weather Map API.
+#### View here: https://svdev-weather.netlify.com
+![](simpleWeatherApi/simpleWeather.png)
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+# How it was made:
+#### HTML5, CSS3, Javascript E6, API, JSON
 
-### How to submit your code for review:
+# Optimizations:
+#### Enter either a city or country to retrieve weather data. 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# Lesson Learned: 
+#### How to retrieve desired data from an object in an API. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Source: 
+#### Open Weather Map: https://openweathermap.org/api
