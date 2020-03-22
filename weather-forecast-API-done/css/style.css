@@ -42,12 +42,15 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
+     background-color: rgb(66, 133, 215);
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+
 header {
 
 }
