@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body {
+    background-image: url(/assets/img/dark_world.jpg);
+    background-color: rgb(20, 20, 20);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: -100px;
+    background-position-y: 30%;
+
+}
+h1{
+    text-align: center;
+    color: rgba(182, 182, 182, 0.794);
+    font-size: 6rem;
+} 
+label{
+    color: azure;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color:  rgba(100, 243, 4, 0.959);
+
+}
+input{
+    display: inline-block;
+    height: 40px;
+    width: 40%;
+    margin-left:30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 40%;
+    border-radius: 5px;
+    color: black;
+}
+
+ button{
+     display: block;
+     margin-left: 40%;
+     height: 50px;
+     width: 20%;
+     background-image: url(/assets/gif/cloudy_sky.gif); 
+     background-color: antiquewhite;
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: rgb(56, 70, 59);
+     font-size: 1.8rem;
+     font-weight: bold;
+     border-radius: 20px;
+     border: none;
+     box-shadow: 5px 5px rgba(55, 216, 6, 0.8);
+     margin-bottom: 20px;
+ }
+ span{
+    color:white;
+    opacity: 60%;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+form{
+    margin-top: 100px;
+    height: 400px;
+}
+
+
+.div{
+    height: 500px;
+    width: 50%;
+    float: left;
+
+}
+
+ #temp{
+    
+    width: 80%;
+    height: 370px;
+    border: 1px, solid, red;
+    font-size: 20rem;
+
+}
+#unit{
+    display: none;
+    color: rgb(255, 230, 0);
+    font-size: 9rem;
+    text-align: right;
+    padding-right: 5%;
+}
