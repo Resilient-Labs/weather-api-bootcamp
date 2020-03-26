@@ -1,0 +1,22 @@
+button{
+  color: #ff4500;
+  background-color: #00ff7f;
+  height: 30px;
+  width: 30%;
+}
+
+.topSec{
+  background-image: url("images/weather.jpeg");
+  /* background-size: cover; */
+}
+
+input{
+  border: 2px dashed #bdb76b;
+  height: 30px;
+  width: 55%;
+}
+
+ img{
+  height: 500px;
+  width: 100%;
+}
