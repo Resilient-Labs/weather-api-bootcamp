@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+body{
+  background-image: url("https://wallup.net/wp-content/uploads/2018/03/19/545122-Artur_Rosa-nature-landscape-mountains-digital_art-futuristic-winter-snow-bridge-trees-forest-clouds.jpg");
+
+}
+.container{
+  /* display: flex; */
+  margin: 0;
+  /* width: 0; */
+  height: 20%;
+  /* border: 2px solid black; */
+  margin-left: 10% ;
+  margin-top: 5%;
+  background-repeat: no-repeat;
+  background-image: url("https://i.redd.it/27bhevhtt8zz.jpg");
+
+}
+input{
+  margin-left: 20%;
+  margin-top: 10%;
+  text-align: center;
+
+}
+button{
+  margin-left: 40%;
+  margin-top: 10%;
+
+}
+h2{
+  text-align: center;
+  color: white;
+  margin-right: 15%;
+}
