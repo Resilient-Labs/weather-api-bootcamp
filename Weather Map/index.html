@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What's the Temperature in Your City?</title>
+  </head>
+  <body>
+  <section class="container">
+    <h1>Let's check the weather!</h1>
+    <form action="index.html" method="post">
+      <label for="city">City</label>
+      <input id="city" type="text" placeholder="Boston">
+      <label for="country">Country</label>
+      <input id="country" type="text" placeholder="US">
+      </form>
+    <section class="btn-container">
+      <button id="imperial" type="button">°Fahrenheit</button>
+      <button id="metric" type="button">°Celcius</button>
+    </section>
+    <span id="temp"></span>
+  </section>
+  <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
