@@ -1,0 +1,33 @@
+body{
+  background-image: url(../img/weather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+ font-size: 50px;
+ margin-bottom: 8px;
+ margin-top: 300px;
+}
+
+input {
+ font-size: 24px;
+ height: 32px;
+ margin-bottom: 16px;
+ width: 350px;
+}
+
+button {
+ font-size: 24px;
+ height: 32px;
+ margin-bottom: 16px;
+ width: 100px;
+
+}
+
+#result {
+ font-size: 64px;
+ margin-bottom: 16px;
+}
