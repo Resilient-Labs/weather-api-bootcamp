@@ -1,0 +1,33 @@
+body{
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+  font-family: 'Saira Condensed', sans-serif;
+  color: white;
+}
+
+
+.displaySection{
+  display: flex;
+  justify-content: center;
+}
+
+.inputSection{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.pick{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+p{
+  margin-right: 10px;
+
+}
