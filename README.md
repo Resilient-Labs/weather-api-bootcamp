@@ -7,6 +7,3 @@
 
 ### HTML CSS JAVASCRIPT 
 
-I completed the challenge: 5
-I feel good about my code: 4
-Im happy with the result. I know there is another method to retrieving the temp. It would be interesting to see that and try to attempt it.
