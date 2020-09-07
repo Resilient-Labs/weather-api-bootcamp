@@ -6,7 +6,7 @@ Live Code:
 ### Tech used: 
 HTML, CSS and JS. Used the OpenWeather API to return the weather in different locations.
 
-![Weather API Final](tictactoeimg.png)
+![Weather API Final](weatherAPI.png)
 
 
 
