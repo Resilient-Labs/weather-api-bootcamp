@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background-image: url("bg.jpg");
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Amatic SC', cursive;
+  margin-bottom: .5rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 10rem;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+button {
+  margin-bottom: 1rem;
+  width: 5.3rem;
+  height: 2.2rem;
+  font-size: 1.4rem;
+}
+
+#result {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-family: 'Fredoka One', cursive;
+}
