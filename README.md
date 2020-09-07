@@ -1,22 +1,33 @@
 # 🌦 Project: Weather API
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+Live Code: 
 
-### How to submit your code for review:
+# How It's Made:
+### Tech used: 
+HTML, CSS and JS. Used the OpenWeather API to return the weather in different locations.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Weather API Final](tictactoeimg.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+
+# Lessons Learned:
+One of first projects to implement APIs. Discovered how powerful they are with retrieving information.
+
+
+# Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+Simple NASA API: https://github.com/Kim-Flores/simple-nasa-api-bootcamp/tree/answer
+
+Complex NASA API: https://github.com/Kim-Flores/complex-nasa-bootcamp/tree/answer
+
+Music API: https://github.com/Kim-Flores/complex-api-bootcamp/tree/answer
+
+Book API: https://github.com/Kim-Flores/complex-api2-bootcamp/tree/answer
+
+Dog Facts API: https://github.com/Kim-Flores/simple-api-bootcamp/tree/answer
+
+Programming Jokes API: https://github.com/Kim-Flores/simple-api2-bootcamp/tree/answer
+
