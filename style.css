@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+  /* background-image: url('https://media.giphy.com/media/ri2bxzIyxFfIk/giphy.gif'); */
+  /* background-image: url('https://media.giphy.com/media/67uxmHhIF3uh6Ph8ew/giphy.gif'); */
+  /* background-image: url("https://gfycat.com/wickeddecisivegull"); */
+  background-image: url(https://media.giphy.com/media/jtavDv8iqstY4/giphy.gif);
+  /* background-image: url('https://media.giphy.com/media/jtavDv8iqstY4/giphy.gif'); */
+  /* background-image: url('https://media.giphy.com/media/jtavDv8iqstY4/giphy.gif'); */
+  /* background-image: url('https://media.giphy.com/media/jtavDv8iqstY4/giphy.gif'); */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+h2 {
+  color: purple;
+}
+section {
+    width: 75%;
+    height: 75%;
+    margin: auto auto;
+    background-color: rgba(255,255,255,0.3);
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+    padding: 0 15%;
+    border: 2px purple outset;
+    padding-bottom: 20px;
+}
+a {
+  color: purple;
+  text-decoration: none;
+}
+h1{
+  width: auto;
+}
