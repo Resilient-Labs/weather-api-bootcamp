@@ -1,0 +1,50 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+       -moz-box-sizing: border-box; /* Firexfox */
+            box-sizing: border-box; /* IE */
+}
+
+/***********************************
+personal code
+***********************************/
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6511D;
+    height: 100vh;
+    margin: auto;
+}
+
+h1, input, button, h2{
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: none;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+/***********************************
+media query
+***********************************/
+
+@media screen and (min-width: 1441px) { /*big screen*/
+
+}
+
+@media only screen and (max-width: 768px) { /*tablet*/
+
+}
+
+@media only screen and (max-width: 425px) { /*phone*/
+
+}
