@@ -1,6 +1,6 @@
 # 🌦 Simple Weather API
 #### Project Scope: Input a city + country and to get the temperature in Fahrenheit or Celcius. The program fetches the JSON response from the Open Weather API which is then displayed in the browser.
-Try it Here: relaxed-boyd-63bbd5.netlify.app
+Try it Here: https://relaxed-boyd-63bbd5.netlify.app
 ![Simple Weather Screenshot](/simpleWeather.png)
 
 # How it was made:
