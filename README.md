@@ -1,22 +1,13 @@
-# 🌦 Project: Weather API
+# 🌦 Simple Weather API
+#### Project Scope: Input a city + country and to get the temperature in Fahrenheit or Celcius. The program fetches the JSON response from the Open Weather API which is then displayed in the browser.
+Try it Here: https://relaxed-boyd-63bbd5.netlify.app
+![Simple Weather Screenshot](/simpleWeather.png)
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+# How it was made:
+#### HTML5, CSS3, Javascript, API, JSON
 
-### How to submit your code for review:
+# Optimizations:
+#### Using the user's input to modify the query parameters within the fetch URL to get Fahrenheit or Celcius instead of needing to convert the units.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Lesson Learned:
+#### Making the Javascript more Object Oriented made it easier to keep track of values and scope when calling calling and manipulating those values through methods. This allowed manipulating the DOM much easier and made the code easier to read.

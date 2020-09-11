@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("https://i.pinimg.com/originals/6b/d7/91/6bd791232726406858141bdbd96fc3e0.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Abril Fatface', cursive;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+form{
+  display: flex;
+  font-size: 2rem;
+  gap: 15px;
+  text-shadow: white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px,
+             white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px;
+}
+label{
+  filter: drop-shadow(0 0 0.75rem white);
+}
+input{
+  border: 3px solid #8d99ae;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+h1{
+  margin-top: 2.5rem;
+  font-size: 3rem;
+  text-shadow: white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px,
+             white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px;
+  filter: drop-shadow(0 0 0.75rem white);
+}
+.btn-container{
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+}
+button{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: #90e0ef;
+  border: 5px solid #adb5bd;
+  outline: none;
+}
+button:hover{
+  filter: drop-shadow(0 0 0.75rem gold);
+}
+input{
+  text-align: center;
+}
+#temp{
+  font-size: 3rem;
+}
