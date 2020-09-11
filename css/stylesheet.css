@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background-image: url("https://i.pinimg.com/originals/b5/58/1f/b5581fe87abcf5afe856246403c423bf.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("https://i.pinimg.com/originals/6b/d7/91/6bd791232726406858141bdbd96fc3e0.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,13 +14,17 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 20px;
 }
 form{
   display: flex;
   font-size: 2rem;
   gap: 15px;
+  text-shadow: white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px,
+             white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px;
+}
+label{
+  filter: drop-shadow(0 0 0.75rem white);
 }
 input{
   border: 3px solid #8d99ae;
@@ -28,7 +32,11 @@ input{
   font-size: 1.5rem;
 }
 h1{
+  margin-top: 2.5rem;
   font-size: 3rem;
+  text-shadow: white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px,
+             white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px;
+  filter: drop-shadow(0 0 0.75rem white);
 }
 .btn-container{
   display: flex;

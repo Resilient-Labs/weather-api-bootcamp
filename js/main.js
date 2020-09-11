@@ -1,3 +1,5 @@
+//worked on with House Hayden: Rebecca, Kadeisha, Jeffrey, and Anastasia
+
 // api key: d90ff8cf2b9f828e5633fd9ca45f0634
 
 const weather={
