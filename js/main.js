@@ -9,6 +9,12 @@ function getWeather(){
   fetch(url)
   .then(res => res.json())
   .then(data => {
-    document.querySelector("h3").innerText = `Weather: ${data.main.temp}℉`
+    console.log(data);
+    document.querySelector("h2").innerText =`Location: ${data.name}, ${data.sys.country}`
+    document.querySelector(".current").innerText = `Current Temperature: ${data.main.temp}℉`
+    document.querySelector(".high").innerText = `High: ${data.main.temp_max}℉`
+    document.querySelector(".low").innerText = `Low: ${data.main.temp_min}℉`
+    document.querySelector(".sky").innerText = `${data.weather[0].main}`
+    document.querySelector(".description").innerText = `${data.weather[0].description}`
   })
 }
