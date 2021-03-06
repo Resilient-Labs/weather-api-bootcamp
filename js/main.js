@@ -12,7 +12,7 @@ function getWeather(){
     console.log(selectCity)
     console.log(selectCountry)
 
-    const url=`https://api.openweathermap.org/data/2.5/weather?q=${selectCity},${selectCountry}&APPID=408ed3076a7c1b01ae64d051a21df0a0`
+    const url=`https://api.openweathermap.org/data/2.5/weather?q=${selectCity},${selectCountry}&APPID=a5387c6cf57752657d32cdebecedb26d`
 
     //'fetch' is connected to the browser
     //console--object
