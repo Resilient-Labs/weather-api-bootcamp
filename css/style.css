@@ -1,0 +1,80 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background: url(../img/weatherBackground.gif);
+  background-size: cover;
+  color: rgb(40,31,30);
+}
+button, input{
+  border: 1px solid rgb(97,89,85);
+  border-radius: .5rem;
+  font-family: inherit;
+  font-weight: 200;
+  padding: 1rem 1.5rem;
+}
+form{
+  padding-top: 4rem;
+  text-align: center;
+}
+header{
+  height:10rem;
+  width: 100%;
+}
+h1{
+  font-size: 5rem;
+  font-weight: 500;
+  padding-top: 4rem;
+  text-align: center;
+}
+h3{
+  text-decoration: underline;
+}
+html{
+  font-size: 62.5%;
+  font-family:"Ubuntu", sans-serif
+}
+img{
+  display: block;
+  height: 20rem;
+  margin:4rem auto;
+}
+main{
+  background: rgba(197,218,225, .8);
+  border-radius: 5rem;
+  height: 60rem;
+  margin: 0 auto;
+  width: 50%;
+}
+.headerFlex{
+  display: flex;
+  margin: 5% auto;
+  width:90%;
+}
+.flexThis{
+  font-size: 2.5rem;
+  font-weight: 400;
+  justify-content: space-between;
+  width: 30%;
+}
+.weather{
+  font-size: 4rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+.results{
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
