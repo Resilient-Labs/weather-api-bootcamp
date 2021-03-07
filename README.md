@@ -1,14 +1,14 @@
-# 🚀 NASA Facility Weather 🛰️
+# 🚀 Weather API 🛰️
 
-<img src="https://github.com/DashlinS/api-complex-nasa/blob/answer/images/nasademo.gif" width="700">
+<img src="https://github.com/DashlinS/weather-api-bootcamp/blob/answer/images/weatherdemo.gif" width="700">
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://nasa-facility.netlify.app/)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://donttempme.netlify.app/)
 
 **Languages used:** Html, CSS, Javascript
 
 ## Lessons Learned
 
-This is a complex API made using the NASA API and a Weather API. The task was to list all the NASA facilities and display the correct temperature at each coordinate. I used the table element and created rows dynamically using Javascript. I also only allowed the button to be clicked once.
+This is a simple weather API that takes an input from the user and shows the weather at the location or zip code entered!
 
 ### My Other Projects 
 
