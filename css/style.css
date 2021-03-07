@@ -1,0 +1,35 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  margin-top: 220px;
+  font-size: 2em;
+  background-image: url("sunny-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+button,
+input {
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 1px;
+}
+
+.enter {
+  background-color: #fcd5b9;
+  color: #7d6969;
+}
+
+#result {
+  padding-top: 40px;
+}
+
+h2 {
+  margin: 25px;
+}
