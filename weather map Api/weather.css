@@ -1,0 +1,8 @@
+* body {
+  /* display: inline; */
+  align-content: center;
+  margin: left;
+  background-image: url("../weatherApi/images/weather.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
