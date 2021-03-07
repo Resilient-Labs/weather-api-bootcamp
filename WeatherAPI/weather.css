@@ -1,0 +1,16 @@
+body{
+    background-image: url('weat.jpg');
+    color: white;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    /* the transform can help with positioning */
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px rgb(39, 39, 39);
+    width: 465px;
+    height: auto;
+    text-align: center;
+    background-color: rgb(14, 66, 116);
+}
