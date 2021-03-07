@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+	font-size: 62.5%;
+	font-family: 'Yusei Magic', sans-serif;
+  }
+  
+  body{
+	background-image: url(../pic/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(113, 27, 130, 0.2);
+	height: 100vh;
+	padding: 0;
+	margin: 0; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	 
+  }
+
+  .secIntroduction{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 4rem;
+      text-align: center;
+      width: 100%;
+  }
+
+  .secInput{
+      display: flex;
+      width: 50%;
+      
+  }
+
+  .secInput input{
+    text-align: center;
+    width: 50%;
+  }
+  
+  button{
+      margin-top: 3%;
+  }
+
+  h2{
+      font-size: 4rem;
+  }
+

@@ -1,22 +1,22 @@
-# 🌦 Project: Weather API
+# simple-api-weather
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+This is a simple app that returns a location's temperature. The user inputs a location and clicks enter/on the button and the current temperature of that location is returned. 
 
-### How to submit your code for review:
+Link to Project: https://simple-temperature-api.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Project Image](/pic/weather.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+### How It's Made:
+
+Tech used: HTML, CSS, JavaScript
+
+This weather app uses 1 API (openweather). It is made using an input, event listener, function, and fetch statement. First, the user enters a city + country code as the input. Next, there is an event listener on the 'Get Temperature' button/the enter key. When either is clicked, a function runs. Within the function is a fetch statement which contacts the API with the request. Finally, the current temperature is returned to the DOM.  
+
+
+### Lesson Learned
+
+I learned how to fetch data from an API. In this case, the API url needs a city and country code parameter to fetch the temperature. The city + country code is retrieved from the input and inserted into the url through a template literal.  
+ 
+
+###
