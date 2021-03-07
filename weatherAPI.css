@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image:url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-hand-drawn-cartoon-weather-background-design-image_272674.jpg");
+  height:15px; 
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+h1{
+  margin-left:25%;
+  width:48%;
+  border:3px solid black;
+  margin-top:3%;  
+  text-align:center;
+  font-weight:bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:45px;
+  background-color: rgba(235, 164, 31, 0.849)
+
+ 
+}
+button {
+  border:3px solid black;
+  width:15%;
+  color:black;
+  align-items: center;
+  height:10%;
+  margin-left:50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  background-color:rgba(255, 127, 53, 0.815);
+  font-weight: bolder;
+  position:absolute;
+  right:24%;
+  top:40%;
+  border:3px solid black;
+
+
+}
+
+
+input{
+  background-color:rgb(251, 254, 76);
+  font-weight:bolder;
+  font-size: larger;
+  width:25%;
+  height:10%;
+  position : absolute;
+  left:35%;
+  top:40%;
+  text-align: center;
+  border:3px solid black;  
+}
+input::placeholder{
+  color:black;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#display{
+width:10%;
+text-align: center;
+color:black;
+font-size: 15px;
+font-weight: bolder;
+position:absolute;
+bottom:20%;
+left:45%;
+}
+h4,h2{
+  font-size:25px;
+  background-color:rgb(254,200,76);
+
+}
+
+#sun {
+  width:20%;
+  height:25%;
+  position: absolute;
+  bottom:15%;
+  left:65%;
+}
+
+#sun {
+  width:20%;
+  height:25%;
+  position: absolute;
+  bottom:15%;
+  left:65%;
+}
+
+
+#cloud {
+  width:20%;
+  height:25%;
+  position: absolute;
+  bottom:15%;
+  left:20%;
+}
