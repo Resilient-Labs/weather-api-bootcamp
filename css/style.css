@@ -1,0 +1,35 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  background-image: url('https://lh3.googleusercontent.com/proxy/5drwOo3z1IfHMRevH1EicuW_omsGExMtRd9sVkIhDNn-Ur9LWVFxpihnL3NDHviGax0v7LrIc5xpY8dTXF77VEReManf23BusqFoOOTelOEvQcX79jhj-NerxOqRKTgykDle0arm9Vp5YLikYfFnbBI0Af5bXekrvIwlG6ARja7TATu2bSwSd7tbQHozpvUtv6FwYjQxnmodwmA0qdv3O39trg'); /*cute weather*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 20%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1{
+  padding-top: 5%;
+  font-size: 40px;
+}
+
+section{
+  margin-top: 20%;
+  padding-bottom: 2%;
+  background-color: rgba(255,255,255,0.5);
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
