@@ -1,6 +1,63 @@
-/* *{
+*{
     box-sizing: border-box;
     margin:0;
     padding:0;
-  } */
+  }
+  
+body{
+   background-image: url("back.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+h1{
+    color: black;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 18px;
+    border: 2px solid black;
+    background-color:wheat;
+    width:fit-content;
+    margin-left: 35%;
+    margin-top: 9px;
+}
+
+h2{
+    font-size: 2rem;
+    margin-left: 27%;
+    font-weight: 900;
+    margin-bottom: 18px;
+    color: black;
+    border: 2px solid black;
+    background-color:wheat;
+    width:fit-content;
+}
+
+input{
+    margin-left: 43.5%;
+}
+button{
+    margin-bottom: 18px;
+}
+button:hover{
+    background-color:mediumseagreen;
+}
+
+img{
+    width: 540px;
+    height:540px;
+}
+
+.outputData{
+  font-size: 3.6rem;
+  font-weight: bolder;
+  border: 2px solid black;
+  background-color:wheat;
+  width:fit-content;
+  margin-left: 36%;
+}
+
+#myList{
+  list-style-type: none;
+}
   
