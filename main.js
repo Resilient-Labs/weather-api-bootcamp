@@ -28,7 +28,6 @@ function getWeather(){
     }
 
 }
-
 // // function apiCallTwo(data){
 //     etch(urlTwo)
 //     .then(res => res.json())
