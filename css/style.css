@@ -1,0 +1,45 @@
+body{
+    background-image: url('../img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 85px 0;
+}
+
+.sun{
+    width: 12%;
+}
+
+
+#weather, .greeting{
+    font-family:"Fredoka One";
+    color: #FFF;
+    font-size: 35px;
+}
+
+.greeting{
+    font-size: 20px;  
+}
+
+#city-input, #country-input{
+    height: 27px;
+    border-radius: 5px;
+    border: 4px solid #f1ca5d;
+}
+
+#search-btn{
+    height: 30px;
+    width: 45px;
+    background-color: #0263e5;
+    color: #FFF;
+    border: 2px solid white;
+}
+
+i{
+    font-size: 20px;
+}

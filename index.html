@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Weather</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c0e668a8ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="container">
+        <img class="sun" src="img/sun.gif" alt="">
+        <p class="greeting">"How's the weather?"</p>
+        <form action="index.html">
+            <input id="city-input" type="text" placeholder="e.g. Boston, MA">
+            <input id="country-input" type="text" placeholder="e.g. US">
+            <button id="search-btn"><i class="fas fa-cloud-sun-rain"></i></button>
+        </form>
+        <section>
+            <p id="weather"></p>
+        </section>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
