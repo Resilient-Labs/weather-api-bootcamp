@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+} 
+
+/* Box Model Hack*/
+    
+* .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    }
+    
+
+
+
+.mainWrap{
+    background-image: linear-gradient( rgb(47, 150, 163), rgb(48, 62,143));
+    font-family: sans-serif;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    height: 100vh;
+    width: 88%; 
+    text-align: center;
+}
+
+.location{
+    height: 30vh;
+    margin-top: 20%;
+    
+}
+
+.location p{
+    float: right;
+    margin-right: 33%;
+    font-size: 1.5em;
+
+}
+
+.location h1{
+    /* float: right; */
+    margin-left: 11%;
+    font-size: 3em;
+
+}
+
+.tempDegree{
+    margin-bottom: 6%;
+    font-size: 2em;
+  
+
+}
+
+.Ferinheit {
+    margin-bottom: 20px;
+    padding-left: 40px;
+    
+}
+
+.tempDecrip{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
