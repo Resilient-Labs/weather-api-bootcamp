@@ -1,22 +1,13 @@
-# 🌦 Project: Weather API
+# 🌦 Weather API
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+Link to project: https://danstansapi.netlify.app/weather-api-bootcamp/index.html
 
-### How to submit your code for review:
+![beautiful day](beautifulDay.jfif)
+ 
+### How it is made
+Tech Used: HTML, CSS & Vanilla JavaScript
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### What it is about
+This app allows to find out the current weather of any city in the world. 
+The user can enter the desired location and the app sends a get request to the weather API which returns the current weather of that location. 
+This happens asynchronously using promises.

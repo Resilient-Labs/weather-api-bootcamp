@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background: url('../beautifulDay.jfif');
+  text-align: center;
+  font-size: 2rem;
+  font-family: cursive;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+input{
+  height: 4rem;
+  width: 20%;
+  border: none;
+  border-radius: 5px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{
+  color: lemonchiffon;
+  margin-top: 4rem;
+}
+button{
+    background-color: #c1bbba;
+    border: none;
+    border-radius: 5px;
+    height: 4rem;
+}
