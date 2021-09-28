@@ -1,0 +1,111 @@
+* {
+  padding:0;
+  margin: 0;
+  font-family: cursive;
+}
+
+h1 {
+  font-size: 3rem;
+  /* margin-left: 40px; */
+}
+
+body {
+  background:url(../images/background.jpg) no-repeat left;
+  background-size:cover;
+}
+
+.container {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tablet {
+  background:url('../images/tablet.png') no-repeat center;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabletContent {
+  border: 2px solid purple;
+  width: 780px;
+  height: 510px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* align-items: stretch; */
+  justify-content: space-between;
+  flex-direction: column;
+  background: url(../images/mainbackground.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.form {
+  width: 500px;
+  height: 200px;
+  /* display: flex; */
+  /* flex-direction: column;/ */
+  /* align-items: center; */
+  /* background-color:red; */
+}
+
+input[type=text] {
+  margin: 50px 0px;
+  /* border: none; */
+  height: 30px;
+  width: 250px;
+  border-radius: 15px;
+  text-align: center; 
+  background-color: transparent;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+input[type=button] {
+  height: 50px;
+  width: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: none;
+  background-color: rgba(80, 181, 214, 0.741);
+  border: none;
+}
+input[type=button]:focus {
+  outline: none;
+}
+.city {
+  /* margin-bottom: 20px; */
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+input[type="button"]:active { 
+  border-style: outset;
+  background: rgb(245, 244, 242);
+  -webkit-box-shadow: inset 0px 0px 5px #a7a1a1;
+     -moz-box-shadow: inset 0px 0px 5px #a7a1a1;
+          box-shadow: inset 0px 0px 5px #a7a1a1;
+}
+
+.textContent {
+  /* border: 1px solid black; */
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
