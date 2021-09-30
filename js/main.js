@@ -20,7 +20,7 @@ function getWeather(){
         .then(data => {
             console.log(data)
 
-            document.querySelector('span').innerText = data.main.temp
+            document.querySelector('span').innerText = `${data.main.temp} °F`
         })
         .catch(err => console.log(err))
 }
