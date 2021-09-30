@@ -12,4 +12,5 @@ Stuck inside and want to know how hot it is before you go out? You can use this 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
+
 **APIs used:** https://openweathermap.org
