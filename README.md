@@ -3,7 +3,7 @@
 ## A Minimal Weather App
 
 Stuck inside and want to know how hot it is before you go out? You can use this app to find out the temperature using your city and country.
-netl
+
 **Link to test:** https://weathermap-nktruong.netlify.app/
 
 ## A Picture of the Very Fancy Website:
@@ -12,3 +12,4 @@ netl
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
+**APIs used:** https://openweathermap.org
