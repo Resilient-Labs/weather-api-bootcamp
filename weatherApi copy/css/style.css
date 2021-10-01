@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(red,yellow);
+    height:800px;
+}
+
+
+h1{
+    padding-top:10%;
+    text-align: center;
+}
+
+h2{
+    text-align:center;
+}
+
+#city{
+    margin-left: 30%;
+}
+
+#deg{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
