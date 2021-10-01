@@ -1,0 +1,62 @@
+Last login: Fri Sep 10 21:15:21 on ttys000
+resilientcoders@Resilients-Air ~ % ls
+Applications		Library			Public
+Desktop			Movies			todo-list-2019-week05
+Documents		Music
+Downloads		Pictures
+resilientcoders@Resilients-Air ~ % cd desktop
+resilientcoders@Resilients-Air desktop % cd rc
+resilientcoders@Resilients-Air rc % ls 
+__MACOSX			personal-website-material
+codeWars			playAround
+eight				rock_paper_scissors
+eighteen			seven
+eleven				seventeen
+fifteen				six
+five				sixteen
+four				ten
+fourteen			thirteen
+nine				three
+nineteen			twelve
+notes				twenty-anadWeGraduate
+one				two
+resilientcoders@Resilients-Air rc % cd ..
+resilientcoders@Resilients-Air desktop % ls
+LocalGit
+Screen Shot 2021-09-08 at 11.30.25 AM.png
+rc
+to copy
+resilientcoders@Resilients-Air desktop % cd localGit
+resilientcoders@Resilients-Air localGit % ls
+aDifRepo	anotherFOlder	bareGitRepo
+resilientcoders@Resilients-Air localGit % bareGitRepo
+zsh: command not found: bareGitRepo
+resilientcoders@Resilients-Air localGit % cs bareGitRepo
+zsh: command not found: cs
+resilientcoders@Resilients-Air localGit % cd bareGitRepo
+resilientcoders@Resilients-Air bareGitRepo % git commit
+hint: Waiting for your editor to close the file... 
+this is my first commit to this [age, actualy
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   index.html
+#
+# Untracked files:
+#       poi/
+#
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --

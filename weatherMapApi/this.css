@@ -1,0 +1,34 @@
+body{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border:white 1px solid;
+    font-size:2.7rem;
+}
+.cute{
+    width: 100%;
+    height: 100%;
+    animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation{
+    0% {Background-image: url(storm1.jpeg);}
+    25% {Background-image: url(storm2.jpeg);}
+    50% {Background-image: url(storm3.jpeg);}
+    75% {Background-image: url(storm4.jpeg);}
+    100% {Background-image: url(storm5.jpeg);}
+}
+section{
+    /* border: 1px white solid; */
+    width:250px;
+    margin:auto;
+    padding: 14px;
+    color: white;
+}
+button{
+    width: 70px;
+    height:100%;
+    margin:auto;
+    display:block;
+}
