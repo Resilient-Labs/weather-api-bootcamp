@@ -1,0 +1,43 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+body{
+  margin-top: 4rem;
+  color: beige;
+  text-align: center;
+  background-color: cornsilk;
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+
+button{
+background-color: steelblue;
+color: snow;
+clear:both;
+
+}
+
+button:hover{
+  background-color: coral;
+
+}
