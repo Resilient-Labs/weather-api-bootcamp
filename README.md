@@ -7,5 +7,7 @@
 
 ### How It's Made: Tech used: HTML, CSS, JavaScript API
 
+Helps users to find temperature in current city and state country !!!
+
 ### Lessons Learned:
 API  application connects to the Internet and sends data to a server.
