@@ -1,9 +1,11 @@
 # 🌦 Weather API
 
 ### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
-### Link to project:https://emsweatherapi.netlify.app/
 
-![Screen Shot 2021-10-02 at 3 45 23 PM](https://user-images.githubusercontent.com/89624071/135730018-883b53c2-31c8-4d61-ab4d-a4e0b7e9e5aa.png)
+### Link to project:https://emsweatherapi.netlify.app/
+Helps users to find temperature in current city and state country !!!
+
+![Screen Shot 2021-10-02 at 5 10 23 PM](https://user-images.githubusercontent.com/89624071/135731867-24610ecc-b09d-477d-8050-c2c46d0521fd.png)
 
 ### How It's Made: Tech used: HTML, CSS, JavaScript API
 
