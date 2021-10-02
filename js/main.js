@@ -7,7 +7,7 @@ let city = rawCity.toLowerCase();
 let country = rawCountry.toLowerCase();
 console.log(city)
 console.log(country)
-const link = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=0354f1a1a2fd6e2d1e2053079a512ae7&units=imperial`
+const link = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=a7fdf34d85817aedc68297b66cd98ba5&units=imperial`
 fetch(link)
   .then(res => res.json())
   .then(data => {
