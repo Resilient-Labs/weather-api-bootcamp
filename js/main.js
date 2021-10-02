@@ -7,7 +7,7 @@ function getWeather(){
   let city = document.querySelector("#city").value
   let country = document.querySelector("#country").value
 
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=imperial&appid=82e9d72929eaf7ea6d5bf266443ef7a6`
+  const url = `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=imperial&appid=`
 
 fetch(url)
     .then(res => res.json()) // parse response as JSON
