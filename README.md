@@ -8,4 +8,4 @@
 ### How It's Made: Tech used: HTML, CSS, JavaScript API
 
 ### Lessons Learned:
-The application connects to the Internet and sends data to a server.
+API  application connects to the Internet and sends data to a server.
