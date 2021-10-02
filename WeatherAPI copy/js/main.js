@@ -20,3 +20,4 @@ function kelvinToFarenheit(k){
     kToF = Math.floor((k - 273.15) * 9/5 + 32)
     document.querySelector("#returnedTemp").innerText = 'The temperature in ' + city.toString() + ' is ' + kToF
 }
+//  collaborated with team hayden to complete team project 
