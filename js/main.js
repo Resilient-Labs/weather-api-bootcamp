@@ -6,7 +6,7 @@ function getWeather(){
 
     let city = document.querySelector('#city').value
     let country = document.querySelector('#country').value
-    const url = `http://api.weatherapi.com/v1/current.json?key=a95ab548de894c73b07220619213009&q=${city}&country=${country}`
+    const url = `http://api.weatherapi.com/v1/current.json?key=KEY&q=${city}&country=${country}`
 
 
     fetch(url)
