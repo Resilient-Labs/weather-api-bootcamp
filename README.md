@@ -1,22 +1,11 @@
-# 🌦 Project: Weather API
+# 🌦 Weather API
 
 ### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+### Link to project:https://emsweatherapi.netlify.app/
 
-### How to submit your code for review:
+![Screen Shot 2021-10-02 at 3 45 23 PM](https://user-images.githubusercontent.com/89624071/135730018-883b53c2-31c8-4d61-ab4d-a4e0b7e9e5aa.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### How It's Made: Tech used: HTML, CSS, JavaScript API
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### Lessons Learned:
+The application connects to the Internet and sends data to a server.
