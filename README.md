@@ -2,7 +2,7 @@
 
 ### Goal: Build a Weather Nasa API
 
-This is my simple Weather API project! Users can enter in a City and State and the app will fetch them the current weather for that area!
+This is my simple Weather API project! Users can enter in a City and U.S State Code (Ex: MA, CA, NH) or International Country Codes (Ex: China = CN) and the app will fetch them the current weather for that area!
 
 <img src="weather.png"></img>
 
