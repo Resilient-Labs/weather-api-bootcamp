@@ -1,0 +1,45 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  background-color: papayawhip;
+  font-size: 1rem;
+}
+
+#landing{
+  width: 96%;
+  height: 50vh;
+  text-align: center;
+  border: 2px solid black;
+  margin: 2%;
+  padding-top: 5%;
+  background-color: white;
+}
+
+#info{
+  width: 96%;
+  height: 50vh;
+  text-align: center;
+  border: 2px solid black;
+  margin: 2%;
+  padding-top: 10%;
+  background-color: white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
