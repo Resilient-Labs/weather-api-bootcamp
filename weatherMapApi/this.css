@@ -3,13 +3,16 @@ body{
     flex-direction: column;
     width: 500px;
     height: 500px;
-    border:white 1px solid;
     font-size:2.7rem;
+    background-image: url(fortheBackground.png);
+    background-size: cover;
 }
 .cute{
-    width: 100%;
-    height: 100%;
+    position:relative;
+    top: 25.1110%;
+    left: 36%;
     animation: myanimation 10s infinite;
+    width:575px;
 }
 
 @keyframes myanimation{
@@ -21,14 +24,14 @@ body{
 }
 section{
     /* border: 1px white solid; */
-    width:250px;
-    margin:auto;
     padding: 14px;
     color: white;
+}
+.weatherResults{
+    width: 100%;
 }
 button{
     width: 70px;
     height:100%;
-    margin:auto;
     display:block;
 }
