@@ -1,0 +1,61 @@
+/**Received help from Monica and Daniel
+
+******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+     padding: 0 0 10px 10px; 
+	float: right;
+}
+
+.alignleft {
+     padding: 0 10px 10px 0;
+	float: left; 
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: black;
+     font-size: 13px;
+     line-height: 1.4;
+     font-family: 'Arial', sans-serif;
+     background-image: url(https://images.unsplash.com/photo-1592210454359-9043f067919b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.main-container{
+     width: 100%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
