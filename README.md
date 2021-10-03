@@ -1,6 +1,6 @@
 # 🎰 Week08 Bootcamp2021 Project: Simple Weather API Project
 
-### Goal: Build a Weather Nasa API
+### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
 This is my simple Weather API project! Users can enter in a City and U.S State Code (Ex: MA, CA, NH) or International Country Codes (Ex: China = CN) and the app will fetch them the current weather for that area!
 
