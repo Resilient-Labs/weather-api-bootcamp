@@ -4,7 +4,7 @@ This weather app uses a weather API to display the temperature and a brief forec
 
 ## Link to Project: 
 
-![Weather App Demo](url)
+![Weather App Demo](https://github.com/cat-goncalves/weather-api-bootcamp/blob/answer/css/img/weather-api-demo.gif?raw=true)
 
 
 ## How It's Made:
