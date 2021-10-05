@@ -8,7 +8,7 @@ function getTemperature(){
   let state = document.querySelector('#state').value
   let country = document.querySelector('#country').value
 
-  let url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${state},${country}&units=imperial&appid=efe853eab315f356609db78afe217b4a` //line 11
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${state},${country}&units=imperial&appid=_________` //line 11
 
   document.querySelector('p').hidden = true
 
