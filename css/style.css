@@ -30,36 +30,67 @@
 	float: left;
 	padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
-/*
-1px  = 0.0625rem
-10px = 0.625rem
-12px = 0.75rem
-14px = 0.875rem
-16px = 1rem (base)
-18px = 1.125rem
-20px = 1.25rem
-24px = 1.5rem
-30px = 1.875rem
-32px = 2rem
-*/
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+    color: rgb(19, 2, 72);
+    font-size: 3vh;
+    line-height: 1.4;
+    font-family: 'Comfortaa', Arial, sans-serif;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
 }
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+ h1 {
+    font-family: 'Abril Fatface', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+h2 {
+    max-width: 40%;
+    padding: 3%;
+    margin-left: 30%;
+    text-align: center;
+    background-color: rgba(199, 202, 217, 0.6);
+    border-radius: 100%;
+}
+ul {
+    text-align: left;
+}
+li {
+    list-style-type: none;
+    max-width: 50%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+    font-size: 1em;
+}
+ input {
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2%;
+    margin-right: 4%;
+ }
+ input::placeholder {
+    color: rgb(74, 76, 85);
+ }
+ input:hover::placeholder {
+    color: rgb(199, 202, 217 );
+ }
+ button {
+    padding: 0.5% 1%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 40%;
+ }
+ button:hover {
+    color: rgb(27, 58, 185 );
+    background-color: rgb(199, 202, 217 );
+}
