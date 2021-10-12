@@ -14,3 +14,13 @@ Stuck inside and want to know how hot it is before you go out? You can use this 
 **Tech used:** HTML, CSS, JavaScript
 
 **APIs used:** https://openweathermap.org
+
+# Optimizations
+
+* Design the site so it shows weather icons
+* Show more weather data
+* Let users choose between Celcius or Fahrenheit
+
+## Lessons Learned:
+
+I learned how to create an API key and use it as a query parameter to access the API. After discovering that the temperature units were in Celcius, I found out another query parameter that changed the units into Fahrenheit.
