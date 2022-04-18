@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  text-align: center;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+}
+
+input{
+  font-family: 'Indie Flower', Arial, Helvetica, sans-serif;
+  margin-top: 24em;
+  width: 10em;
+  height: 2em;
+}
+
+button{
+  font-family: 'Indie Flower', Arial, Helvetica, sans-serif;
+  color: rgb(105 164 103);
+
+  background-color: rgb(241 214 88);
+  border:none;
+  width: 10em;
+  height: 2em;
+}
+
+h2{
+  font-family: 'Indie Flower', Arial, Helvetica, sans-serif;
+  color: rgb(105 164 103);
+  font-size: 2em;
+  margin-top: 2.8em;
+  padding-left: .5em;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
