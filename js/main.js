@@ -28,5 +28,6 @@ function getWeather(){
 
         document.querySelector('.updated').innerText = `Last Updated: ${data.current.last_updated}`
     })
+    document.querySelector('input').value = ''
 }
 
