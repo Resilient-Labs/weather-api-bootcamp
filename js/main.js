@@ -3,7 +3,6 @@
 //location determine by city, country or zipcode
 // F = 1.8 X (K -273.15) + 32
 
-const apiKey = 'f4221edf930e3945b38a5e8c64554341'
 const button = document.querySelector('button')
 const input = document.querySelector('input')
 
@@ -14,7 +13,7 @@ function getTemp(e) {
     const zipcode = input.value
     console.log(typeof zipcode)
 
-    const urlGeo = `http://api.openweathermap.org/geo/1.0/zip?zip=${zipcode},US&appid=${apiKey}`
+    const urlGeo = `http://api.openweathermap.org/geo/1.0/zip?zip=${zipcode},US&appid=f4221edf930e3945b38a5e8c64554341`
 
     fetch(urlGeo)
     .then(res => res.json())
