@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background-image: url('https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/paultactico2/EqUdNbdmPJd2RrxNVLofAdWxMSwr9BYea92ykLA7xN5RWE8tGpeoqQGDzm5rE9HfGon.gif');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 100px;
+    color: rgb(253, 166, 17);
+    font-size: 2.5rem;
+    padding: 16px;
+    font-style: italic;
+}
+
+input {
+    padding: 8px;
+    background-color: rgb(132,132,255);
+    border: 1px solid black;
+}::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+  }
+
+
+
+button {
+    padding: 12px;
+    margin-top: 16px;
+    border-radius: 5px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    background-color: rgb(132,132,255);
+    border: 1px solid black;
+}
+
+h2, p {
+    display: inline-block;
+    padding: 40px;
+    font-size: 2rem;
+    margin-top: 12px;
+
+}
+
+p {
+    font-size: 2rem;
+    font-weight: bold;
+}
