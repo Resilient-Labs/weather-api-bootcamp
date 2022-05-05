@@ -3,6 +3,7 @@
     text-align: center;
     box-sizing: border-box;
     font-size: 14px;
+    padding: 0;
 }
 
 body {
@@ -44,10 +45,29 @@ h2, p {
     padding: 40px;
     font-size: 2rem;
     margin-top: 12px;
+    color: rgb(119, 12, 12);
+    font-style: italic;
+}
+
+span, p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#fahrenheit {
+    padding: 0;
+} 
+
+#displayCity {
+    padding-left: 24px;
+}
+
+#displayWeather {
+    padding: 0;
+    padding-left: 24px;
 
 }
 
-p {
-    font-size: 2rem;
-    font-weight: bold;
+span {
+    color: rgb(253, 166, 17);
 }
