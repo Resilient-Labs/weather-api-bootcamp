@@ -2,7 +2,8 @@ document.querySelector('.submitBtn').addEventListener('click', getTemp)
 
 function getTemp() {
     const city = document.querySelector('.userInput').value
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=7aef535e9fa166f07bef91761f4b8ff6&units=imperial`
+    const key = config.MY_KEY
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=imperial`
 
     fetch(url)
         .then(res => res.json())
