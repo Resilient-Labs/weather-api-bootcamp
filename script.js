@@ -13,7 +13,6 @@ const api = `https://api.openweathermap.org/data/2.5/weather?q=${city},${state},
         console.log(data)
         document.getElementById('displayCity').innerHTML = data.name 
         document.getElementById('displayWeather').innerHTML = data.main.temp 
-        // document.getElementById('display').innerHTML = data.wind.speed
     })
     .catch(err => {
         console.log(`error ${err}`)
