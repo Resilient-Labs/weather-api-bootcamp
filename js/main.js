@@ -11,7 +11,7 @@ button.addEventListener('click', getTemp)
 function getTemp(e) {
     e.preventDefault()
     const zipcode = input.value
-    console.log(typeof zipcode)
+    // console.log(typeof zipcode)
 
     const urlGeo = `http://api.openweathermap.org/geo/1.0/zip?zip=${zipcode},US&appid=f4221edf930e3945b38a5e8c64554341`
 
