@@ -1,0 +1,114 @@
+
+body{
+  background-image: url(https://raluca-weather-app.netlify.app/media/clouds.jpeg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  width:80%;
+}
+
+   /* h1{
+    
+  }
+
+  input{
+    
+  }
+
+  h2{
+   
+    
+  }
+
+ button{
+ 
+ }
+
+  h3{
+    
+  } */
+
+/* img{
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+} */ */
+
+
+.city-1{
+  display: inline;
+  font-size: 50px;
+}
+
+.city{
+  /* margin-left: 10px; */
+  margin: 50px;
+}
+
+span{
+  display: inline;
+  margin: 2px;
+}
+
+.emoji{
+  font-size: 40px;
+  /* margin-left: 100px; */
+  display: inline;
+}
+
+button{
+transform: scale(1.5);
+margin-left:20px;
+}
+
+
+
+.todays-date,.forecast-date-one,.forecast-date-two{
+  display: inline;
+  margin: 4px;
+}
+
+.rain{
+display: inline-block;
+margin: 1%;
+width: 57%;
+}
+
+.current{
+border: 3px solid pink;
+margin-bottom: 2%;
+float:left;
+width: 26%;
+margin:1%;
+}
+
+.current-icon,.forecast-icon-one,.forecast-icon-two{
+  margin:1%;
+  display: block;
+}
+
+.current-temp,.forecast-temp-one,.forecast-temp-two{
+  display: inline;
+  margin:4px;
+  margin-top: 5%;
+}
+
+.forecast-rain-one,.chance-rain,.forecast-rain-two{
+  display: inline;
+}
+
+
+.One{
+  border: 3px solid rgb(208, 108, 208);
+  margin-bottom: 2%;
+  float: left;
+  width: 20%;
+  margin-left: 6%;
+  margin-right: 87px;
+}
+
+.Two{
+  border: 3px solid rgb(97, 210, 225);
+  float: left;
+  width: 20%;
+  margin: 1%;
+}
