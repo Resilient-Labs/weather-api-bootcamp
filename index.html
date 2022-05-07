@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Weather App</title>
-        <link rel="stylesheet" href="assets/stylesheets/normalize.css">
-        <link rel="stylesheet" href="assets/stylesheets/style.css">
-    </head>
-    <body>
 
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+</head>
+
+<body>
+
+    <header>
         <!-- I began with linking the JS and CSS. Then I jumped into my header. It is in a separate section for styling purposes. -->
-            <h1 class="title">Is it <span class="yellow">sunny </span>in your city?</h1>
-            <p class="instructions">Type in the name of your city</p>
+        <h1 class="title">What's should I wear today?</h1>
+        <p class="instructions">Type in the name of your city to see the current temperature.</p> 
+        <p>Verify you city location by reviewing the country code with your result. Stay warm/cool!</p>
         <!-- I have my title, instructions on how to use the application, the input for the user to type their city, and the submit button. -->
-            <input type="text" class="userInput">
-            <button class="submitBtn">Submit</button>
-        </header>
+        <input type="text" class="userInput">
+        <button class="submitBtn">Submit</button>
+    </header>
 
-        <main>
+    <main>
         <!-- Here is where I will set up the content that we get back from the API. -->
+        <section>
             <h3 class="city"></h3>
             <h4 class="country"></h4>
             <p class="temperature"></p>
             <p class="weatherDesc"></p>
-        </main>
+        </section>
+        <section>
+            <img src="" alt="">
+            <p class="recommendation"></p>
+        </section>
+    </main>
 
-        <script src="config.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+    <script src="config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
 </html>

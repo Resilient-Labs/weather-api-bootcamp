@@ -20,6 +20,20 @@ html {
 
 /* Body Styling */
 
-header, main {
+body {
     font-size: 2.5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    margin: 1% 1%;
+    padding: 1%;
+}
+
+img {
+    height: 200px;
 }
