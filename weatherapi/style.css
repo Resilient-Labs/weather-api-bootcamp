@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+  }
+body{
+    text-align: center;
+    background-image: url(./images/weather.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
