@@ -1,0 +1,36 @@
+body{
+    background-image: url(./images/weather.gif);
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 128, 0);
+}
+h2{
+    color: rgb(255, 255, 111);
+    font-size: 30px;
+}
+h3{
+    color: rgb(172, 18, 255);
+    font-size: 30px;
+}
+.degrees{
+    color: rgb(129, 255, 33);
+    font-size: 30px;
+
+}
+.feelslike{
+    color: rgb(73, 243, 255);
+    font-size: 30px;
+}
+
+input{
+    margin-left: 430px;
+    width: 25%;
+    height: 30px;
+}
+button{
+    height:35px;
+}
