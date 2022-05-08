@@ -1,0 +1,30 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  margin: auto;
+  text-align: center;
+  font-family: fjalla One, sans-serif, Arial, Helvetica, sans-serif
+}
+
+html{
+  background: url(../weather.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-size: 350%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
