@@ -1,0 +1,14 @@
+body { 
+    background-image: url("fall.jpg");
+    background-repeat: none;
+    font-family: 'Neucha', cursive;
+}
+
+button { 
+    border-radius: 8px;
+    font-family: 'Neucha', cursive;
+}
+
+input { 
+    border-radius: 8px;
+}
