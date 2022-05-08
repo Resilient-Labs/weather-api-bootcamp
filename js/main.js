@@ -36,7 +36,7 @@ function getTemp(e) {
                 let tempMax = Math.round(1.8 * ((data.main.temp_max) -273.15) + 32)
                 let tempMin = Math.round(1.8 * ((data.main.temp_min) -273.15) + 32)
 
-                tempTemp.innerText = temp
+                tempTemp.innerText = `${temp} F`
                 tempName.innerText = `City: ${data.name}`
                 tempHilo.innerText = `Hi:${tempMax}/Lo:${tempMin}`
                 tempHumid.innerText = `Humidity: ${data.main.humidity}`
