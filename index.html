@@ -6,23 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>What's the Weather?</h1>
     </header>
 
     <main>
+        <h1>What's the Weather?</h1>
+
         <form>
             <input type="text" placeholder="Enter Zipcode" id="zipcode">
             <button id="button">Submit</button>
         </form>
 
         <section>
-            <h2>Temp</h2>
-            <h3>Name</h3>
-            <img src="" alt="">
+            <h2 id="temp"></h2>
+            <h3 id="hiLo"></h3>
+            <h3 id="humidity"></h3>
+            <h3 id="name"></h3>
         </section>
+        <section class="cloud1"></section>
+        <section class="cloud2"></section>
+
     </main>
     
     <script type="text/javascript" src="js/main.js"></script>    

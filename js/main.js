@@ -20,8 +20,10 @@ function getTemp(e) {
     .then(data => {
         console.log(data)
 
-        let tempName = document.querySelector('h3')
-        let tempTemp = document.querySelector('h2')
+        let tempName = document.querySelector('#name')
+        let tempTemp = document.querySelector('#temp')
+        let tempHilo = document.querySelector('#hiLo')
+        let tempHumid = document.querySelector('#humidity')
         let geoLat = data.lat
         let geoLon = data.lon
         const urlTemp = `https://api.openweathermap.org/data/2.5/weather?lat=${geoLat}&lon=${geoLon}&appid=f4221edf930e3945b38a5e8c64554341`
@@ -30,9 +32,15 @@ function getTemp(e) {
             .then(res => res.json())
             .then(data => {
                 console.log(data)
+                let temp = Math.round(1.8 * ((data.main.temp) -273.15) + 32)
+                let tempMax = Math.round(1.8 * ((data.main.temp_max) -273.15) + 32)
+                let tempMin = Math.round(1.8 * ((data.main.temp_min) -273.15) + 32)
 
-                tempTemp.innerText = Math.round(1.8 * ((data.main.temp) -273.15) + 32)
-                tempName.innerText = data.name
+                tempTemp.innerText = temp
+                tempName.innerText = `City: ${data.name}`
+                tempHilo.innerText = `Hi:${tempMax}/Lo:${tempMin}`
+                tempHumid.innerText = `Humidity: ${data.main.humidity}`
+
             })
             .catch(err => {
                 console.log(`error ${err}`)
