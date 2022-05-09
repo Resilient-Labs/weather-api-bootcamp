@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: rgb(82, 50, 50);
+    font-size: 1.3em;
+
+}
+p{
+    font-weight: bolder;
+}
