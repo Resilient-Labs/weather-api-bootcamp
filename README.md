@@ -2,21 +2,8 @@
 
 ### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-### How to submit your code for review:
+![weather](https://media.wired.co.uk/photos/606dba1c9a15f73a597a2aa1/master/w_1600,c_limit/weather.jpg)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+I built out a site that uses a weather api and allows the user to enter and city and country to see the current temperature in °F.  
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This project involved using a weather API and taught us how build with a single API.
