@@ -7,3 +7,5 @@
 I built out a site that uses a weather api and allows the user to enter and city and country to see the current temperature in °F.  
 
 This project involved using a weather API and taught us how build with a single API.
+
+Check out my project here - https://weatherforecast-current.netlify.app/ ! 
