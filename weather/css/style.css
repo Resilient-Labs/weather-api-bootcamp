@@ -1,0 +1,30 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  text-align: center;
+  font-family: 'Quicksand', 'Futura', sans-serif;
+  background-image: url("../img/background.png");
+}
+
+img{
+  margin: 0 auto;
+  width: 500px;
+}
+
+h3 {
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
