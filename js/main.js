@@ -14,7 +14,7 @@ function getLocation(e){
     let country = document.getElementById('country').value
     let city = document.getElementById('city').value
 
-    let url = `http://api.openweathermap.org/geo/1.0/direct?q=${city},${country}&limit=1&appid=${akey}`
+    let url = `https://api.openweathermap.org/geo/1.0/direct?q=${city},${country}&limit=1&appid=${akey}`
 
     fetch(url) 
         .then(res => res.json()) // parse response as JSON 
