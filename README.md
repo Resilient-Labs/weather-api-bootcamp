@@ -2,21 +2,17 @@
 
 ### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-### How to submit your code for review:
+I used the Open Weather Map API to allow a user to enter their location and have their city's weather displayed. 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Screen Shot 2022-05-18 at 3 42 18 PM](https://user-images.githubusercontent.com/102037717/169143015-7ff52411-add2-4967-aaf1-9d661822bd9c.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![Screen Shot 2022-05-18 at 3 42 39 PM](https://user-images.githubusercontent.com/102037717/169143018-d221f442-17b3-4277-a0c9-0bb9406dccb0.png)
+
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript, Weather API
+
+## Lessons Learned:
+
+This was one of the second web API projects I created and it was also pretty simple to manage since the open weather map api was very user friendly and easy to use. 
