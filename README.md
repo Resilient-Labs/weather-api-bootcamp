@@ -1,22 +1,18 @@
-# 🌦 Project: Weather API
+# weatherapi
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-### How to submit your code for review:
+# Weather API
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Users are able to enter in a city or country, and receive the current weather, what it feels like, precipitation, and humidity of that location. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+![weatherthumb jpg](https://user-images.githubusercontent.com/102040536/172031512-e6d781f2-d7d2-4a37-8d8d-e2384afd7f57.png)
+
+
+## How It's Made:
+
+Languages/frameworks use: HTML, CSS, JavaScript
+
+## Thoughts:
+
+First API project. I think the hardest part of this actually looking for a weather API that wasn't broken, paid, and let you put in the inputs you needed for the project. This one took a little bit of work, but I really wanted to use it because it had a cute weather icon. I was able to make it work with a bit of fiddling, and I'm pretty happy with how it came out. 
