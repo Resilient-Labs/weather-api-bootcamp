@@ -1,22 +1,19 @@
-# 🌦 Project: Weather API
+# Weather Forecast API 
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+This site allows a user to enter a city and country and returns the current temperature among some other forecast properties in Fahrenheit.
 
-### How to submit your code for review:
+![Weather](https://i.imgur.com/nLCwAHS.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML5, CSS, JavaScript, API
+
+I focused on finding a solid and reliable weather API and utilizing it to display the current temperature and and current overcast data.  
+
+<!-- ## Optimizations
+
+An array could be used as we learned more about those and objects. Will be looking to add and optimize this code in the future. -->
+
+## Reflections:
+
+This was an introductorary to using API's and fetching data from them and then manipulating the DOM. This was a good project to practice using template literals. 

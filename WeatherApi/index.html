@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="flexContainer">
+        <div class="child">
+            <h1>Today's Forecast</h1>
+            <h3 id="howToUse">Enter a city and country and the current temperature will be returned in Fahrenheit (°F)</h3>
+    
+            <input type="text" id="cityName" placeholder="City">
+            <input type="text" id="countryName" placeholder="Country">
+            <h2></h2>
+            <button type="button" name="button" id="check">Check the Weather</button>
+            
+            <p id="updated"></p> 
+            <h3 id="error"></h3>
+        </div>
+        <div class="child Overcast">
+            <h1>Current Overcast</h1>
+
+            <p id="feelsLike"></p>
+            <p id="wind"></p>
+            <p id="gust"></p>
+            <p id="direction"></p>
+            <p id="humidity"></p>
+            <p id="precipitation"></p>
+           
+        </div>
+
+
+    </section>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
