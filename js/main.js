@@ -3,7 +3,7 @@ class Weather {
         this._city = city;
         this._state = state;
         this._country = country;
-        this._url = "Your API Key gose HERE"
+        this._url = "Your API Key goes HERE"
     }
 
     // Getter methods
