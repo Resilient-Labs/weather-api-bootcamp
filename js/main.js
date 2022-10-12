@@ -3,7 +3,7 @@ class Weather {
         this._city = city;
         this._state = state;
         this._country = country;
-        this._url = "f91af75b3d52f3032a0ed01ea95ccf11"
+        this._url = "Your API Key gose HERE"
     }
 
     // Getter methods
@@ -72,4 +72,3 @@ document.querySelector("#btn").addEventListener("click", () => {
     // make the fetch request 
     userLocation.retriveInfo()
 })
-
