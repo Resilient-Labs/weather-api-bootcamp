@@ -3,6 +3,7 @@ class Weather {
         this._city = city;
         this._state = state;
         this._country = country;
+        this._url = "f91af75b3d52f3032a0ed01ea95ccf11"
     }
 
     // Getter methods
@@ -38,7 +39,8 @@ class Weather {
             fetch(`https://api.openweathermap.org/data/2.5/weather?q=${this._city},${this._state},${this._country}&appid=${this._url}&units=imperial`)
             .then(res => res.json()) // parse response as JSON
             .then(data => {
-                console.log(data)
+
+                // Place csata into the DOM
                 document.querySelector("#city").innerText = data.name
                 document.querySelector("#weather").innerText = data.main.temp
                 document.querySelector("#condition").innerText = data.weather[0].main
@@ -69,6 +71,5 @@ document.querySelector("#btn").addEventListener("click", () => {
 
     // make the fetch request 
     userLocation.retriveInfo()
-
 })
 
