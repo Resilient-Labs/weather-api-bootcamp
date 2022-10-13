@@ -17,4 +17,4 @@ The user is able to enter a city, state and country, then click on get weather b
 
 ## Disclamer:
 
-If you clone this project, you need to use your own API key form https://openweathermap.org/api
+If you clone this project, you need to use your own API key from https://openweathermap.org/api
