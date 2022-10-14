@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input{
+    text-align: center;
+    height: 60px;
+    width: 550px;
+    background: blue;
+    font-size: 18px;
+    border: none;
+}
+
