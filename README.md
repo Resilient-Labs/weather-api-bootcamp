@@ -1,22 +1,8 @@
-# 🌦 Project: Weather API
+<h1 align="center"> NASA Weather API </h1>
+<p align="center"> This project uses a weather API. User  has to  input a city. The current Temperature of the city will display and have the picture/info display in the DOM.</p>
+ 
+![ss6](https://user-images.githubusercontent.com/101954954/172291685-d6539eba-d5b9-4b37-9b68-0768e799dc90.png)
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+ 
+ Tech used: HTML, CSS, JavaScript, Web API

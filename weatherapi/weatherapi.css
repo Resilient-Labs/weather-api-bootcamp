@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Times New Roman', Times, serif;
+   background-image: url(ap2.jpg);
+  
+   background-size: cover;
+  }
+  
+  .input{
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  input[type="submit"]{
+    padding: 15px 30px;
+    background: #DDEDE8;
+    border: none;
+    border-radius: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .input input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #DDEDE8;
+    border: none;
+    border-radius: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .card{
+    width: 30%;
+    background: #DDEDE8;
+    height: 20vh;
+    margin: 50px auto;
+    border-radius: 2px;
+  }
+  
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1{
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+  }
