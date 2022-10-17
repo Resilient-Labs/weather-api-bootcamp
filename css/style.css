@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Croissant+One&display=swap');
+
+
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 1200px;
+   
+}
+
+
+ h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Bubblegum Sans", Helvetica, sans-serif;
+}
+
+.small {
+    font-size: 2.5rem;
+}
+
+
+.form-area {
+    display: 0 auto;
+    padding-top: 10%;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 0, 0, 0);
+    padding: 0.8% 2%;
+    width: 52.2%;
+    margin: 0.5%;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    margin: 0 auto; 
+}
+
+
+
+form {
+    padding-left: 15%;
+}
+
+input {
+    display: 0 auto;
+    padding-top: 10%;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 0, 0, 0.75);
+    margin: 0.5%;
+    border: 2px solid;
+    margin: 0 auto;   
+    font-size: 2rem;
+}
+.term {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 1% 2%;
+
+}
+
+.term-two {
+
+    padding: 1% 2%;
+
+}
+#submit {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+   
+    padding: 1% 2%;
+}
+
+#submit:hover {
+    color: rgb(8, 9, 136);
+    border: 2px solid white;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main section {
+    padding-top: 10%;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 0, 0, 0.55);
+    padding: 0.8% 2%;
+    width: 52.2%;
+    margin: 0.5%;
+    border-radius: 10px;
+    border: 2px solid;
+    margin: 0 auto;
+
+}
+
+ol {
+   
+    flex-direction: column;
+}
+
+.main li {
+
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: "Teko", Helvetica, sans-serif;
+    list-style-type: none;
+
+    
+    
+}
+
+a {
+    margin: 0 auto;
+    font-size: 1.75rem;
+    text-decoration: none;
+    color: greenyellow
+  
+}
+
+@media screen and (max-width: 480px) {
+
+    .term {
+        width: 100%;
+        border-radius: 30px;
+        text-align: center;
+    }
+    .term-two {
+        width: 100%;
+        border-radius: 30px;
+        text-align: center;
+    }
+    
+    #submit {
+
+        width: 70.2%;
+        border-radius: 30px;
+        text-align: center;
+    }
+    section li {
+        font-size: 2rem;
+    }
+ }
+
+ @media (min-width: 481px) and (max-width: 1017px) {
+
+    .term {
+        width: 100%;
+        border-radius: 30px;
+        text-align: center;
+    }
+    .term-two {
+        width: 100%;
+        border-radius: 30px;
+        text-align: center;
+    }
+    #submit {
+
+        width: 50.2%;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+
+   
+ }
+
+ 
