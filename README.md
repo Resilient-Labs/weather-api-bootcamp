@@ -2,7 +2,7 @@
 
 Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-I used the free openweather api.
+**Link to project:** https://checkweatherapi.netlify.app/
 
 ![weather](https://user-images.githubusercontent.com/91163017/195464285-13011b29-02e9-4545-9e0d-b0fcfb9be79c.png)
 
