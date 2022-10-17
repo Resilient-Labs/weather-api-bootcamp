@@ -1,0 +1,20 @@
+body {
+background-image: url(img/background.jpeg);
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  
+}
+
+.inputBox {
+  margin-left: 33%;
+  margin-top: 5%;
+  
+}
+
+.resultBox {
+  text-align: center;
+  font-size: 40px;
+}
