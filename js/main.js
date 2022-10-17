@@ -3,7 +3,7 @@ class Weather {
         this._city = city;
         this._state = state;
         this._country = country;
-        this._url = "Your API Key goes HERE"
+        this._url = "f91af75b3d52f3032a0ed01ea95ccf11"
     }
 
     // Getter methods
@@ -40,7 +40,7 @@ class Weather {
             .then(res => res.json()) // parse response as JSON
             .then(data => {
 
-                // Place csata into the DOM
+                // Place into the DOM
                 document.querySelector("#city").innerText = data.name
                 document.querySelector("#weather").innerText = data.main.temp
                 document.querySelector("#condition").innerText = data.weather[0].main
@@ -50,7 +50,6 @@ class Weather {
                 console.log(`error ${err}`)
         });
     }
-
 }
 
 // Add an event listener to the button
