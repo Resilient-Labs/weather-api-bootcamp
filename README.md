@@ -1,22 +1,12 @@
-# 🌦 Project: Weather API
+# Project: Weather API☔⚡☀️❄️
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
-
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+An application that when the user inputs of a city and its conutry code give out the weahter of that particular area.
+Check it out here: https://soft-piroshki-fbc59a.netlify.app/
+![image](https://user-images.githubusercontent.com/112406976/196281092-d387eb47-0e69-4abc-b171-47cd579bbe5a.png)
+# Tech Used: HTML, CSS, Javascript 
+This project took HTML, CSS, and Javascript to get the desired result. Used an API to extract data
+and display it back on the DOM.
+# Lessons Learned
+This was a big step for me in learning how I could get a potential user to interact with an API on an
+application. It showed me how I can take input from someone browsing the page, and give them the option
+to obtain useful information. It also further demonstrated the capibilties of what an API can do. 
