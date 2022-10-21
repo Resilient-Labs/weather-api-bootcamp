@@ -27,6 +27,47 @@ p {
   color: blue;
 }
 
+body {
+  background-color:  #5865F2;
+
+}
+
+main {
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color: plum;
+}
+
+main div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  }
+
+button{
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 5px;
+    flex: 1 0 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  input {
+    margin-top: 10px;
+  }
+
+p{
+  text-align: center;
+}
+
+
 /* Tablet size */
 @media (min-width:601px) and (max-width: 800px) {
 
