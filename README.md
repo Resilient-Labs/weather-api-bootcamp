@@ -7,13 +7,10 @@
 
 [Link to project](https://weather-app-morgan.netlify.app/)
 
-![nasa-facilities-weather netlify app_](https://user-images.githubusercontent.com/111996055/197100015-b3300865-2a3e-454e-8660-bb765f965092.png)
-
-
 ## How It's Made:
 HTML, CSS, JavaScript
 
 
 ## Lessons Learned:
-This was my first time using two APIs in one website, and I learned that when managing a large amount of data, it's extremely important to stay organized.
+The most difficult aspect of this project was finding an API that worked and would take the parameters I wanted.
 
