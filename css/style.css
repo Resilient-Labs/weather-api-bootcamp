@@ -1,0 +1,70 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-image: url(/img/sunny-day.jpeg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+
+}
+
+section {
+  margin: 3% auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: yellow;
+}
+
+p {
+  font-size: 3rem;
+  color: orange;
+
+}
+
+
+input, button {
+  font-size: 2.2rem;
+  padding-left: 1rem;
+  border-radius: .5rem;
+  border: none;
+  color: black;
+}
+
+button {
+  background: orange;
+}
+
+/* Display the Weather */ 
+
+h3, h2, span {
+  font-size: 4rem;
+  color: white;
+  color: yellow;
+}
