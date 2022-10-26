@@ -7,11 +7,32 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 62.5%;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 
+body{
+  padding: 1rem;
+  font-size: 2rem;
+}
 
+form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+label, input{
+  margin-bottom: .6rem;
+}
+
+h2{
+  text-align: center;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
