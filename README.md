@@ -7,6 +7,8 @@
 
 [Link to project](https://weather-app-morgan.netlify.app/)
 
+![_Users_Morgan_Desktop_RC_Week8_weatherApi_weather-api-bootcamp_index html](https://user-images.githubusercontent.com/111996055/197923504-d4e51494-0193-4b63-b8c1-b4bfa3005196.png)
+
 ## How It's Made:
 HTML, CSS, JavaScript
 
