@@ -11,6 +11,72 @@
 /* LAYOUT
 /*******************************************/
 
+
+/* Center the h1 */
+
+h1 {
+  text-align: center;
+}
+.top{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: lightsteelblue;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* make section with class bottom positino under the top section and have background color of orange */
+
+.bottom{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: lightblue;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 235px;
+  margin-top: 230px;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+button{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #f4f4f4;
+  cursor: pointer;
+}
+/* make #temp fit in the bottom section and style it */
+
+#temp{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #f4f4f4;
+  cursor: pointer;
+}
+/* make the body have background image of weatherbackground.jpg */
+
+body{
+  background-image: url("weatherbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
