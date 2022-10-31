@@ -20,7 +20,7 @@ function getWeather(event) {
         console.log(data); // the data is being logged into the console
         let temp = document.querySelector("#temp") // this will set temp to the h2 element in HTML
         let fahrenheit = (data.data[0].temp * 9/5) + 32      //convert temp to fahrenheit
-        temp.innerHTML = fahrenheit
+        temp.innerHTML = fahrenheit +" Fahrenheit"
     })
     .catch(err => {
         console.log(`error ${err}`)  // this will log any errors if they are present
