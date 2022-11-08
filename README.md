@@ -2,6 +2,8 @@
 
 ![weather_api](https://user-images.githubusercontent.com/23227549/200642154-7576fd55-6763-46df-9a22-9c03c09c6b8e.png)
 
+Link to the site: https://void-weather-api.netlify.app/
+
 Tech used: HTML, CSS, JavaScript, two differnt weather APIs
 
 An application that allows the user to type in a city and select a country from a list and receive the temperature in Fahrenheit
