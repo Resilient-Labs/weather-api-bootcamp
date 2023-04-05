@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/00fea0157c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <h1>Local Weather</h1>
+        <section id="suggest">
+            <h3>Suggestions:</h3>
+            <p>Try your favorite City! Type "Philadelphia" or ZIP "92507"</p>
+        </section>
+        <form action="" onsubmit="return false">
+            <input type="text" id="weatherInput">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <section id="weather">
+            <!-- render -->
+        </section>
+    </main>
     <script src="main.js"></script>
 </body>
 </html>
