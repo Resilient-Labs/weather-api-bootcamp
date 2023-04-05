@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.hidden{
+    display: none;
+}
+body{
+    background: rgb(12, 12, 95);
+    display: flex;
+    justify-content: center;
+}
+main{
+    background: rgb(10, 10, 164);
+    padding: 4rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 2rem;
+}
+input{
+    border: transparent;
+    background: transparent;
+    width: 80%;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+input:focus{
+    outline: none;
+}
+button{
+    background: transparent;
+    border: transparent;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+form{
+    display: flex;
+    background: white;
+    height: 3rem;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+#weather{
+    color: white;
+    font-size: 2rem;
+}
+#suggest{
+    color: white;
+}
