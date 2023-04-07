@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://images.wallpaperscraft.com/image/single/roof_rain_umbrella_131381_1366x768.jpg");
+  background-size: cover;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: rgb(255, 218, 185, 0.3); */
+  width: 50%;
+  border-radius: 30px;
+}
+
+#btn{
+  background-color: rgb(248, 152, 96);
+  border: 1px groove rgb(230, 177, 65);
+  color: antiquewhite;
+}
+
+
+.title {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+#result {
+  margin-top: 30px;
+}
+
+#result img {
+  width: 50%;
+  height: auto;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(22, 89, 181, 0.8);
+    width: 80%;
+    border-radius: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(22, 89, 181, 0.8);
+    width: 90%;
+    border-radius: 30px;
+  }
+}
