@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url('iOS-16-Weather-Wallpaper-1.jpeg');
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto';
+  padding: 100px;
+}
+
+form{
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#country{
+  width: 6%;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+#city{
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+button{
+  background-color: lightblue;
+  color: white;
+  border: none;
+  
+}
