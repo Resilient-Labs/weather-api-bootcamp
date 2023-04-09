@@ -1,0 +1,66 @@
+
+html{
+  background-image: url(img/weatherTV.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tv{
+  margin:275px 0 0 925px;
+}
+h1{
+  margin:175px 0 0 1000px;
+  font-size: 70px
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  border-radius: 15px;
+  padding:8px;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+ 
+input{
+  font-size: 25px;
+  width:40%;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#state, #city{
+  display: inline;
+  margin:50px 0 50px 5px;
+  color:white;
+}
+
+.top, .middle, .bottom{
+  font-weight: 100;
+  margin:30px 0;
+  color:white
+}
+
+#city:first-child, .bottom, .top{
+  margin-left:200px;
+}
+
+
