@@ -1,0 +1,33 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background: url(../img/weather.png);
+  background-size: cover;
+}
+
+section{
+  float: right;
+  text-align: center;
+  margin: 15% 15%;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
