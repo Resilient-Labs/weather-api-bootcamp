@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box; 
+    font-family: 'Noto Serif Khojki', serif;
+} 
+
+body {
+    text-align: center;
+    background-image: url(images/weather.png);
+    background-size: cover; 
+	background-repeat: no-repeat;
+   
+}
+
+h1 {
+    color:white; 
+}
