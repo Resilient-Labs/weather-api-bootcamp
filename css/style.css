@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+  }
+
+  body{
+    
+    background-image: url(https://animesher.com/orig/1/105/1051/10519/animesher.com_japanese-animation-weather-1051998.gif);
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;}
+
+
+  input {
+    width: 64%;
+    padding: 12px 20px;
+    margin: 9px 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(161 202 241);
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-shadow: 0 2px #98f798;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 11px 2px;
+  cursor: pointer;
+  border: 1px solid rgb(255 255 255);}
+
+
+  .all{
+    color: white;
+    text-shadow: 3px 2px 2px #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{ color: white;
+  text-shadow: 3px 2px 2px #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;}
+
+  
