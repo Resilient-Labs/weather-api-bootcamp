@@ -1,0 +1,27 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0147AB;
+}
+input, button{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+h1{
+    font-size: 2.5em;
+    border: double #99bbeb8a;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #99bbeb8a;
+}
+h2, h3 {
+    font-size: 1em;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}
