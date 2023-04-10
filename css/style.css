@@ -1,0 +1,32 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.hidden{
+  display: none;
+}
+
+body{
+  background: url(https://64.media.tumblr.com/9b6fadcc3c7120f5872e252ca2633c61/tumblr_pf9fi697x21qeyvpto1_500.gifv);
+  background-color: navy;
+  color: white;
+  background-size: 100%;
+  text-align: center;
+}
