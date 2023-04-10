@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Weather API</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<section class="main">
+		<h1>Where's The Weather?</h1>
+		<h2>Enter a City, State and Country below to see the daily weather report.</h2>
+
+		<label for="city:">Enter City/State:</label>
+		<input name="city" type="text" value="" placeholder="Chicago, Illinois" class="city">
+		<label for="country">Enter Country:</label>
+		<input name="country" type="text" value="" placeholder="United States" class="country">
+		<button type="submit" placeholder="Search" class="submit">Search</button>
+
+
+		<section class="">
+			<h3>The weather in<span id="city"></span> is:</h3>
+			<h4 class="temp"></h4>
+			<h4>°F</h4>
+		</section>
+	</section>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
