@@ -1,0 +1,43 @@
+html{
+  height: 100%;
+  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  background-image: url(../weather.webp) ;
+}
+.container{
+  text-align:center;
+
+}
+
+h2{
+  text-align: center;
+  color: #68a23a;
+  font-size: 29px;
+}
+.weather-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}
+.weather-icon-container img {
+  display: block;
+  margin: auto;
+} */
+
+ .weather-icon-container {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.weather-icon-container img {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px; 
+}
+
