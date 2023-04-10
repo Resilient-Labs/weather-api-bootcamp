@@ -1,4 +1,3 @@
-
 const temp = document.querySelector('#temp')
 const submitBttn = document.querySelector('button')
 const city = document.querySelector('#city')
@@ -22,4 +21,3 @@ function getTemp(){
 }
 
 submitBttn.addEventListener('click', getTemp)
-
