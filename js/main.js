@@ -17,7 +17,7 @@ function whatsTheWeather(){
     .then(data => { 
         console.log(data) 
 
-        document.querySelector("h2").innerText = data.current.temp_f
+        document.querySelector("h2").innerText = `${data.current.temp_f}°F`
 
         }) 
 
