@@ -11,8 +11,8 @@ function weatherTime() {
     .then((data) => {
       console.log(data);
 
-      document.querySelector("h2").innerText = `The temperature in ${data.location.name}, ${data.location.region} is : ${data.current.temp_f} F`;
-      document.querySelector(".displayP").innerText = `Country of Origin : ${data.location.country}`;
+      document.querySelector("h2").innerText = `The temperature in ${data.location.name}, ${data.location.region} is: ${data.current.temp_f} F`;
+      document.querySelector(".displayP").innerText = `Country of Origin: ${data.location.country}`;
       
       //clears search bar.
       clear.value = "";

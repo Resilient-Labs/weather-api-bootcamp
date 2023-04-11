@@ -8,12 +8,16 @@ html {
 }
 
 body {
-  background: url(weather.png);
+  background: url(sky.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 main {
-  border: 10px solid rgb(8, 13, 63);
-  background: rgb(255, 253, 246);
+  border: 15px solid rgb(14, 20, 92);
+  box-shadow: 1px 3px 3px 8px rgba(12, 83, 124, 0.596);
+  background: linear-gradient( 180deg, rgb(255, 254, 247), rgb(209, 222, 228)) ;
   width: 40%;
   height: 700px;
   border-radius: 30px;
@@ -27,6 +31,7 @@ main {
 
 h1 {
   font-size: 4rem;
+  font-weight: 800;
 }
 
 h3 {
@@ -41,7 +46,7 @@ p {
   margin: 60px 20px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -51,14 +56,32 @@ input {
   border-radius: 20px;
   padding: 10px;
   margin: 10px;
+  box-shadow:  1px 3px 1px 3px rgba(117, 129, 138, 0.596);
+  border:none;
 }
+
 button {
   border-radius: 20px;
-  padding: 10px;
+  font-weight: 600;
+  padding: 15px;
   height: 40px;
+  background-color: rgb(139, 202, 221);
+  box-shadow:  1px 3px 1px 3px rgba(10, 76, 131, 0.596);
+  color:white;
+  border:none;
+}
+
+button:active{
+  transform: translateY(-4px);
 }
 
 .display {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+}
+
+i{
+  font-size: 6rem;
+  color: rgb(247, 210, 45);
+  text-shadow: 3px 3px 1px rgb(207, 120, 70);
 }
