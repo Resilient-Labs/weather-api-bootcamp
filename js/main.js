@@ -13,7 +13,7 @@ function getTemp(){
             console.log(data)
             
             document.querySelector("h3").innerText = `Country of Origin : ${data.location.country}`
-            document.querySelector("h2").innerText = `The temperature in ${data.location.name}, ${data.location.region} is : ${data.current.temp_f}F`
+            document.querySelector("h2").innerText = `Temperature in ${data.location.name}, ${data.location.region} is : ${data.current.temp_f}F°`
 
         })
         .catch(err => {

@@ -1,5 +1,6 @@
 *{
     box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
 }
 
 body{
@@ -10,30 +11,46 @@ body{
 }
 
 .everything{
+    background-color: rgba(84, 87, 90, .2);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:30px;
+    border-radius:10%;
+}
+
+body{
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
 }
 
-
-
-h1, p, h2{
-    font-size:2rem;
+h1{
+    font-size:3rem;
+    margin-bottom:0px;
 }
 
-h1{
-    margin-bottom:0px;
+p{
+    font-size:2rem;
 }
 
 
 input,button{
-    font-size:1.5rem;
+    font-size:1.75rem;
 }
 
-h3{
-    font-size:1.5rem;
+button{
+    background:transparent;
+    box-shadow:5px 5px 2px 1px rgba(84, 87, 90);
 }
 
+button:active{
+    transform:translateY(4px);
+}
 
-
+h3, h2{
+    font-size:3rem;
+    margin:0;
+    padding-top:20px;
+}
