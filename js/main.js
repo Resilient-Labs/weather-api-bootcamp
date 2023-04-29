@@ -5,7 +5,7 @@ const temperature = document.querySelector('#temperature');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const city = document.querySelector('#city').value;
-  const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+  const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
 
   fetch(url)
     .then(response => response.json())
