@@ -7,7 +7,7 @@
 
 :root {
   font-size: 62.5%;
-  background-image: url(/Users/valerygonzalez/Desktop/RC/Week-8/weather-api/img/ghost.jpeg);
+  background-image: url(/img/weather.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -33,13 +33,13 @@ button {
 }
 
 .fade {
-  background-color: #DB1F48;
-  color: #fff;
+  background-color: #b76ed8;
+  color: #3b3737;
   transition: background-color 1s;
 }
 
 .fade:hover {
-  background-color: rgb(56, 82, 133);
+  background-color: rgb(253, 144, 227);
 }
 
 .fade:focus,
@@ -54,6 +54,7 @@ input {
   height: 32px;
   background-color: rgb(249 243 243 / 50%);
   color: black;
+  border: none;
 }
 
 h1 {
