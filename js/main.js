@@ -6,7 +6,7 @@ function tellMeWeather() {
   let city = document.querySelector('input').value
   const key = '488a0f4271c04fb9a1221953230604'
   
-  const url = `http://api.weatherapi.com/v1/current.json?q=${city}&key=${key}`
+  const url = `https://api.weatherapi.com/v1/current.json?q=${city}&key=${key}`
   fetch(url)
     .then(res => res.json())
     .then(data => {
