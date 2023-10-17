@@ -18,6 +18,8 @@ This was my second time working with APIs. This project helped me get more comfo
 ### Examples:
 Take a look at similar projects!
 
+Workout App: https://github.com/JacinthaDev/simple-api-1
+
 Simple Nasa API: https://github.com/JacinthaDev/simple-nasa-api/tree/answer
 
 Tic-Tac-Toe: https://github.com/JacinthaDev/Tic-Tac-Toe/tree/answer
