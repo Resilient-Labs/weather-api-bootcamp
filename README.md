@@ -24,4 +24,7 @@ Simple Nasa API: https://github.com/JacinthaDev/simple-nasa-api/tree/answer
 
 Tic-Tac-Toe: https://github.com/JacinthaDev/Tic-Tac-Toe/tree/answer
 
+##### API Used
+https://openweathermap.org/api
+
 
