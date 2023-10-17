@@ -6,6 +6,8 @@
 # About this project
 This project uses the Open Weather Map api to enter a city and country and view the weather in that location.
 
+Check out this project here: https://jacinthadev.github.io/Weather-API/
+
 
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript
