@@ -8,7 +8,7 @@ This project uses the Open Weather Map api to enter a city and country and view 
 
 
 ## How It's Made:
-Tech used: HTML, CSS, JavaScript, JSON
+Tech used: HTML, CSS, JavaScript
 
 ## Lessons Learned:
 This was my second time working with APIs. This project helped me get more comfortable working with APIs and understanding how to read the documentation of the API I am working with.
