@@ -15,7 +15,8 @@ Tech used: HTML, CSS, JavaScript
 ## Lessons Learned:
 This was my second time working with APIs. This project helped me get more comfortable working with APIs and understanding how to read the documentation of the API I am working with.
 
-### Examples:
+
+## Examples:
 Take a look at similar projects!
 
 Workout App: https://github.com/JacinthaDev/simple-api-1
