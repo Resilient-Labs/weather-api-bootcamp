@@ -1,22 +1,31 @@
-# 🌦 Project: Weather API
+# ☀️ Weather App
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+<img width="1440" alt="weather-api" src="https://github.com/JacinthaDev/Weather-API/assets/129231721/24321ccb-cd4a-46a0-866b-afa34486701a">
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# About this project
+This project uses the Open Weather Map api to enter a city and country and view the weather in that location.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Check out this project here: https://jacinthadev.github.io/Weather-API/
+
+
+## How It's Made:
+Tech used: HTML, CSS, JavaScript
+
+## Lessons Learned:
+This was my second time working with APIs. This project helped me get more comfortable working with APIs and understanding how to read the documentation of the API I am working with.
+
+
+## Examples:
+Take a look at similar projects!
+
+Workout App: https://github.com/JacinthaDev/simple-api-1
+
+Simple Nasa API: https://github.com/JacinthaDev/simple-nasa-api/tree/answer
+
+Tic-Tac-Toe: https://github.com/JacinthaDev/Tic-Tac-Toe/tree/answer
+
+##### API Used
+https://openweathermap.org/api
+
+

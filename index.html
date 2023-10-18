@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Weather App</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+<!-- Code sourced from https://codepen.io/Call_in/pen/pMYGbZ (Simple Weather App Design by Colin Espinas) and transformed from Pug into HTML using JS -->
+		<div class="container">
+			<div class="weather-side">
+				<div class="weather-gradient"></div>
+				<div class="date-container">
+					<h2 class="date-dayname">Monday</h2>
+					<span class="date-day">16 October 2023</span>
+					<i class="location-icon" data-feather="map-pin"></i>
+					<span id ="location" class="location">New York, USA</span>
+				</div>
+				<div class="weather-container">
+					<i class="weather-icon" data-feather="sun"></i>
+					<h1 class="weather-temp">50 °F</h1>
+					<h3 class="weather-desc">Sunny</h3>
+				</div>
+			</div>
+			<div class="info-side">
+				<div class="today-info-container">
+					<div class="today-info">
+						<div class="precipitation">
+							<span class="title">FEELS LIKE</span>
+							<span id="feels-like" class="value">40 °F</span>
+						</div>
+						<div class="humidity">
+							<span class="title">HUMIDITY</span>
+							<span id="humidity" class="value">34 %</span>
+						</div>
+						<div class="wind">
+							<span class="title">WIND</span>
+							<span id="wind" class="value">0 mp/h</span>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="week-container">
+					<ul class="week-list">
+						<li class="active">
+							<span class="day-name">Tue</span>
+							<span class="day-temp">45 °F</span>
+						</li>
+						<li>
+							<span class="day-name">Wed</span>
+							<span id="today-temp" class="day-temp">21°C</span>
+						</li>
+						<li>
+							
+							<span class="day-name">Thu</span>
+							<span class="day-temp">08°C</span>
+						</li>
+						<li>
+
+							<span class="day-name">Fri</span>
+							<span class="day-temp">19°C</span>
+						</li>
+					</ul>
+				</div> -->
+				<div class="location-container">
+					<input type="text" id="city" placeholder="Enter city name">
+					<input type="text" id="country" placeholder="Enter country code">
+				</div>
+					<button id="get-temp" class="location-button">
+						<span>Change location</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
