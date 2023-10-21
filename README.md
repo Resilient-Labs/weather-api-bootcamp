@@ -6,7 +6,8 @@ I used HTML, CSS, JavaScript and API documentation to code this project.
 
 This project was very entertaining to complete and helped simplify the idea of APIs and their implementation. 
 
-![image](https://github.com/fjh321/Weather-Map-API-FJH/assets/64885403/20056a4c-52d2-4212-9f40-4b8a6a2617e7)
+![image](https://github.com/fjh321/Weather-Map-API-FJH/assets/64885403/5a3fca8f-7cfc-416e-807a-ec647e24b9d7)
+
 
 ### Lessons Learned :
 
