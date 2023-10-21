@@ -1,0 +1,74 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* style.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(160deg, #a3c5ff 0%, #306dab 100%);
+  color: #333;
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+h3, h4, h5 {
+  font-size: 1.5em;
+  margin: 15px 0;
+  color: #555;
+}
+
+input[type="text"] {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
+  width: 250px;
+  font-size: 1em;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 15px 30px;
+  background-color: #5577b4;
+  border: none;
+  border-radius: 50px;
+  font-size: 1em;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #46609a;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
