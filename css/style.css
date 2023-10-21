@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: Gabarito;
+  }
+  
+html{
+  font-size: 62.5%;
+}
+
+#searchBar{
+  border-radius: 30px;
+  width: 30%;
+  background-color: transparent;
+  height: 40px;
+  font-size: 1.5rem;
+}
+
+.button{
+  border-radius: 30px;
+  background-color: transparent;
+  height: 40px;
+}
+
+body{background-image: url("https://i.postimg.cc/X7VyYHmr/Sky2.png");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+.location{
+  margin-top: 250px;
+}
+
+.resultsSection{
+  margin-top: 50px;
+  font-size: 1.8rem;
+  padding: 0px 500px 0px 500px;
+}
+p{
+  font-size: 3rem;
+}
+
