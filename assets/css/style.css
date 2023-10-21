@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+   font-family: 'AlphaClouds';
+   src: url(AlphaClouds.ttf)
+}
+
+@font-face {
+   font-family: 'Sweet Creamy';
+   src: url("Sweet Creamy.ttf")
+}
+
+
+@font-face {
+   font-family: 'Cotton Cloud';
+   src: url("Cotton Cloud.ttf")
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../img/clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+#citycount{
+    font-size: 1.8rem;
+    border-radius: 15px;
+    width: 45%;
+    padding: 0px 3%;
+    font-family: 'Sweet Creamy', Arial, Helvetica, sans-serif;
+    border-color: rgb(106, 130, 158);
+    box-shadow: 0px 4px 5px 2px rgb(106, 130, 158);
+    margin-right: 2%;
+    
+}
+
+button{
+    font-size: 1.8rem;
+    border-radius: 15px;
+    font-family: 'Sweet Creamy', Arial, Helvetica, sans-serif;
+    background-color: rgb(66, 86, 111);
+    color: white;
+    border-color: rgb(106, 130, 158);
+    box-shadow: 0px 4px 5px 2px rgb(106, 130, 158);
+}
+
+#instructions{
+    font-size: 1.6rem;
+    font-family: 'Sweet Creamy', Arial, Helvetica, sans-serif;
+    border-color: rgb(106, 130, 158);
+}
+
+h1{
+   font-family: 'Cotton Cloud', Arial, Helvetica, sans-serif;
+   font-size: 6rem;
+   font-weight: 500;
+   margin: 7px 0%;
+}
+div{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+section{
+    width: 25%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+    font-family: 'Sweet Creamy', Arial, Helvetica, sans-serif;
+
+}
+
+h3{
+    font-size: 3rem;
+}
+
+.head{
+    font-size: 2.8rem;
+}
+
+.temp{
+    font-size: 2.5rem;
+}
+
+.temp,.head{
+    margin: 5px 0%;
+}
+
+img{
+    width: 20%;
+}
