@@ -1,22 +1,19 @@
-# 🌦 Project: Weather API
+# Late Night Weather Check
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+A web application that allows the user to check the weather of a location based off city name and country name.
 
-### How to submit your code for review:
+Link to project: https://latenightweathercheck.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Late Night Weather Check Gif](assets/img/Late-Night-Weather-Check.gif)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+Tech used: HTML, CSS, JavaScript
+
+I used HTML to create the frame of the website. I used CSS to style the body of the webpage. Then I used JavaScript to create an event listener on the button so that when the user submits a input through the index element, it runs the function weatherReport. This function uses fetch with the Open Weather Map API. From the  API data, I pulled information from the database regarding the location that the user inputted. From the response data, I pulled the current temperature of the location, the min temp, the max temp, the feels like temp and the current condtions. I displayed the data to the DOM, and used JS to add styling to the section that hold the elements that the data is displayed to.
+
+
+
+## Lessons Learned:
+
+With this project, I learned how to pull  an icon from an API and show to the DOM.
