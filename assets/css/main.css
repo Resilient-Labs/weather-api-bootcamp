@@ -14,17 +14,6 @@ padding-top: 3rem;
 }
 
 
-h2{
-  /* text-align: left; */
-  padding-top: 2rem;
-
-}
-
-h3{
-  /* text-align: left; */
-  padding-top: 2rem;
-}
-
-h4{
+h2, h3, h4{
   padding-top: 2rem;
 }
