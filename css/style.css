@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(https://images6.alphacoders.com/467/467732.jpg);
+  background-size: cover; /* background image covers the viewport */
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 29px;
+  margin: 20px 0; /* space between h2 and the img */
+}
+
+.weather-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Set width to 100% to make the image responsive */
+  height: 100px; /* fixed height for img container */
+}
+
+.weather-icon img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: -30px; /* Move the image up closer to the text */
+}
