@@ -1,0 +1,28 @@
+*{
+  box-sizing: border box;
+}
+
+
+h1{
+text-align: center;
+color: white;
+}
+
+h3{
+color:yellow;
+font-size: 2rem;
+border-radius: 10, 20;
+}
+
+
+body{
+background: url(../images/theWeather.jpeg);
+background-repeat: no-repeat;
+background-size: 89rem;
+}
+
+.box{
+height:90px;
+width:20%;
+margin-left:44%
+}
