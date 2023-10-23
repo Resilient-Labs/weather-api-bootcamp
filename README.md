@@ -8,7 +8,8 @@ This Weather Web App allows users to check the current temperature in Fahrenheit
 
 Link to Project: https://alejandralondev.github.io/weather-api-bootcamp/
 
-Screenshot:
+Screenshot: ![Screenshot 2023-10-23 at 2 00 27 AM](https://github.com/alejandralondev/weather-api-bootcamp/assets/145242183/a2a5d997-a70c-400b-bad2-a8c3ee2bf4ac)
+
 
 Weather Forecast Web App
 
