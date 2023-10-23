@@ -13,12 +13,18 @@ padding-top: 3rem;
 
 }
 
+
 h2{
-  text-align: left;
+  /* text-align: left; */
+  padding-top: 2rem;
 
 }
 
 h3{
-  text-align: left;
+  /* text-align: left; */
+  padding-top: 2rem;
+}
+
+h4{
   padding-top: 2rem;
 }

@@ -25,11 +25,11 @@ function getTemp() {
     .then((data) => {
 
       console.log(data); 
-      document.querySelector("h1").innerText = `City : ${data.name}`;
-      document.querySelector("h2").innerText = `Country : ${data.sys.country}`;
+      document.querySelector("h2").innerText = `City : ${data.name}`;
+      document.querySelector("h3").innerText = `Country : ${data.sys.country}`;
       const f = Math.floor((data.main.temp - 273.15) * 9/5 + 32) ;
       console.log(typeof data.main.temp);
-      document.querySelector("h3").innerText = f + "°F";
+      document.querySelector("h4").innerText = f + "°F";
     })
     .catch((err) => {
       console.log(`error ${err}`);
