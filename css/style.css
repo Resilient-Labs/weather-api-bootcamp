@@ -1,0 +1,100 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #212121;
+}
+
+html {
+  font: 62.5% 'Gabarito', Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 4rem;
+  margin: 0 5%;
+}
+
+.test {
+  background: #334d50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #cbcaa5, #334d50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 3rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.5rem solid white;
+}
+
+.test div {
+  margin: 3%;
+}
+
+#uInputsAndBtns {
+  width: 100%;
+}
+
+#uInputsAndBtns input, #uInputsAndBtns button {
+  width: 30%;
+  border: 0.2rem solid white;
+  padding: 1%;
+  font-size: 2.5rem;
+  background: transparent;
+  display: inline-block;
+  margin-left: -1.1rem;
+  font-family: 'Gabarito', Arial, Helvetica, sans-serif;
+  /* border-radius: 1rem; */
+}
+
+#uInputsAndBtns input::placeholder {
+  color: white;
+}
+
+#uInputsAndBtns button {
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    color: white;
+}
+
+#uInputsAndBtns input:nth-child(2) {
+  padding-right: 0;
+}
+
+#forecast {
+  display: inline-block;
+}
+
+#forecast h3 {
+  font-size: 2.8rem;
+  margin: 2% 0;
+}
+
+#intro h2 {
+  font-size: 2.4rem;
+  margin: 2% 0;
+  padding: 0 10%;
+}
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
