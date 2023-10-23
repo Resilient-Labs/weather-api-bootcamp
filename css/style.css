@@ -8,6 +8,9 @@
 }
 body {
   font-family: Arial, sans-serif;
+  background-image: url(https://images.pexels.com/photos/2835436/pexels-photo-2835436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -17,7 +20,7 @@ body {
   margin-top: 50px;
 }
 
-.input-group {
+.inputDiv {
   margin-bottom: 20px;
 }
 
