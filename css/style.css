@@ -1,0 +1,32 @@
+/* asked Ludjy for some CSS guidance here; also replicated some styling that I liked online for the input/button and tweaked them  */
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  font-size: 4rem;
+}
+
+input {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
