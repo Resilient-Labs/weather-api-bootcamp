@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+:root {
+  font-size: 62.5%;
+  background-image: url(/img/weather.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 10px;
+  margin: 1%;
+  border: 1px solid grey;
+  background-color: rgb(249 243 243 / 50%);
+  width: 18%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.fade {
+  background-color: #b76ed8;
+  color: #3b3737;
+  transition: background-color 1s;
+}
+
+.fade:hover {
+  background-color: rgb(253, 144, 227);
+}
+
+.fade:focus,
+.fade:active {
+  background-color: rbg(226 70 103 / 50%);
+  transition: none;
+}
+
+input {
+  margin: 1%;
+  border-radius: 10px;
+  height: 32px;
+  background-color: rgb(249 243 243 / 50%);
+  color: black;
+  border: none;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+p {
+  font-size: 3rem;
+  background-color: rgb(249 243 243 / 50%);
+  margin: 10%;
+  padding: 8%;
+}
+
+/* #temp{
+  background-color: rgb(249 243 243 / 50%);
+    margin: 10%;
+    padding: 8%;
+} */
