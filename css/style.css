@@ -1,0 +1,17 @@
+/* Add some basic styles to the form and temperature display */
+body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+      background-size:cover;
+    }
+input {
+      margin-bottom: 10px;
+    }
+ #temperature {
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
