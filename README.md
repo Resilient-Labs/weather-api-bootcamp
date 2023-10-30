@@ -1,5 +1,7 @@
 # Simple Weather API
 
+Live preview: https://codedbycass.github.io/Simple-Weather-API/
+
 <img width="1392" alt="Simple weather" src="https://github.com/codedbycass/Simple-Weather-API/assets/122684139/0d59b397-3573-40ac-b33d-7452ad1aea82">
 
 ## What
