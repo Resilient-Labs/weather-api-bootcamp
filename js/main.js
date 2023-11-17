@@ -15,7 +15,7 @@ function getWeather() {
 
         let kelvin = data.main.temp
         let fahrenheit = kelvin * 9/5 - 459.67
-        fahrenheit = Math.round(fahrenheit * 10) / 10 //round to nearest tenth
+        fahrenheit = Math.round(fahrenheit * 10) / 10 // Round to nearest tenth
         document.querySelector('#temperature').innerText = `${fahrenheit} °F`
 
         document.querySelector('img').src = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`
