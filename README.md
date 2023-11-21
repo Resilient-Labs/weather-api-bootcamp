@@ -1,22 +1,16 @@
-# 🌦 Project: Weather API
+# Simple Weather API
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+Live preview: https://codedbycass.github.io/Simple-Weather-API/
 
-### How to submit your code for review:
+<img width="1392" alt="Simple weather" src="https://github.com/codedbycass/Simple-Weather-API/assets/122684139/0d59b397-3573-40ac-b33d-7452ad1aea82">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## What
+This project makes a request to an external server using a weather API. It's purpose is get the weather in any city in the world.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How it works
+Tools: HTML, CSS, JavaScript, APIs
+
+I used a Fetch API and event listener to send requests to an external server. With a single function, the user will get the weather (current, high, and low) for any city in the world. I converted celsius to fahrenheit using a basic math formula and used the parseInt() method to apply the whole integer.
+
+## Lessons learned
+Using an API makes programming more efficient! I understand now when they say do not reinvent the wheel. With just 13 lines of code, a simple app can become sophisticated and clean.
