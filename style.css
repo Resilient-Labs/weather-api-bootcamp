@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(174, 206, 216);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+@font-face {
+    font-family: 'Lavender Rainstorm';
+    src: url('LavenderRainstorm-pPg1.ttf')
+}
+
+h1{
+    font-family: 'Lavender Rainstorm' ;
+    font-size: 100px;
+}
+
+input{
+    border-radius: 5px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#sun{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
