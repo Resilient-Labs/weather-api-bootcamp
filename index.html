@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Simple Weather API</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&amp;display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<main>
+			<div class="container fade-in-image">
+				<div class="test">
+					<div id="intro">
+						<h1 class="title fade-in-image">A SIMPLE WEATHER APP</h1>
+						<!-- <h2>To get started, enter a city and country. Click " <i class="fa-solid fa-magnifying-glass"></i> " to get that city's current weather.</h2> -->
+					</div>
+		
+					<div id="uInputsAndBtns">
+							<input type="text" name="city" id="city" placeholder="Enter City" class="fade-in-image">
+							<input type="text" name="country" id="country" placeholder="Enter Country" class="fade-in-image">
+							<button id="getWeather" class="fade-in-image"><i class="fa-solid fa-magnifying-glass"></i></button>
+					</div>
+		
+					<div id="forecast">
+						<img class="fade-in-image" src="https://openweathermap.org/img/wn/04n@4x.png">
+						<h2 class="fade-in-image">Philadelphia, US</h2>
+						<h3 class="fade-in-image">Currently : 52°F | Feels Like : 49°F</h3>
+						<h3 class="fade-in-image">overcast clouds</h3>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="https://kit.fontawesome.com/725d81abd8.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
