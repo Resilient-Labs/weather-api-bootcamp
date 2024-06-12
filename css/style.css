@@ -1,0 +1,20 @@
+body{
+  text-align: center;
+  background-image: url('bck.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+button{
+
+}
+
+h3{
+
+}
+
+.symbol{
+visibility:hidden;
+}
