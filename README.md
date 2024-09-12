@@ -1,22 +1,26 @@
 # 🌦 Project: Weather API
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+## A Minimal Weather App
 
-### How to submit your code for review:
+Stuck inside and want to know how hot it is before you go out? You can use this app to find out the temperature using your city and country.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Link to test:** https://weathermap-nktruong.netlify.app/
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## A Picture of the Very Fancy Website:
+![A city and country input of Philadelphia, US with the Fahrenheit temperature 72.5](https://user-images.githubusercontent.com/88857875/135169907-b7a86b9a-e0d0-4354-80e9-4dfed80d6d1f.png)
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
+
+**APIs used:** https://openweathermap.org
+
+# Optimizations
+
+* Design the site so it shows weather icons
+* Show more weather data
+* Let users choose between Celcius or Fahrenheit
+
+## Lessons Learned:
+
+I learned how to create an API key and use it as a query parameter to access the API. After discovering that the temperature units were in Celcius, I found out another query parameter that changed the units into Fahrenheit.
