@@ -1,0 +1,96 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: rgb(19, 2, 72);
+    font-size: 3vh;
+    line-height: 1.4;
+    font-family: 'Comfortaa', Arial, sans-serif;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+ h1 {
+    font-family: 'Abril Fatface', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+h2 {
+    max-width: 40%;
+    padding: 3%;
+    margin-left: 30%;
+    text-align: center;
+    background-color: rgba(199, 202, 217, 0.6);
+    border-radius: 100%;
+}
+ul {
+    text-align: left;
+}
+li {
+    list-style-type: none;
+    max-width: 50%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+    font-size: 1em;
+}
+ input {
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2%;
+    margin-right: 4%;
+ }
+ input::placeholder {
+    color: rgb(74, 76, 85);
+ }
+ input:hover::placeholder {
+    color: rgb(199, 202, 217 );
+ }
+ button {
+    padding: 0.5% 1%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 40%;
+ }
+ button:hover {
+    color: rgb(27, 58, 185 );
+    background-color: rgb(199, 202, 217 );
+}

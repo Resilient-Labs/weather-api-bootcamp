@@ -1,22 +1,19 @@
-# 🌦 Project: Weather API
+# 🌤 ☔️ Weather App ☔️ 🌤
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+This weather app uses a weather API to display the temperature and a brief forecast for a provided, city, state and country
 
-### How to submit your code for review:
+## Link to Project: 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Weather App Demo](https://github.com/cat-goncalves/weather-api-bootcamp/blob/answer/css/img/weather-api-demo.gif?raw=true)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+## How It's Made:
+Tech used: HTML, CSS, JavaScript, OpenWeather API
+
+
+## Optimizations:
+I enhanced this simple app by providing forecast details in addition to the temperature
+
+
+## Lessons Learned:
+I used the OpenWeather API to create this project. It was a great opportunity to continue the practice of using APIs and to query specific units of temperature.
