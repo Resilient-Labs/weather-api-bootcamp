@@ -1,22 +1,14 @@
-# 🌦 Project: Weather API
+# Simple Weather App
+This is a small app that returns the current weather in any city nationally and internationally.
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+![alt tag](http://i68.tinypic.com/zlou8.jpg)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript, API
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I made this by using the Open Weather API. I retrieved the latitude and longitude of every location from the JSON file and added it to the DOM to return the weather in whatever location the user inputs.
+
+## Lessons Learned:
+
+THrough building this project, I learned how APIs work. I learned about JSON and how JSON is basically a giant array that holds a bunch of objects with key-value pairs you can access using a combination of dot notation or optional brackets to select which index you need from the JSON array. I learned how to append newly created elements with the appendChild method to add to the DOM to make new elements appear in my HTML.
