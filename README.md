@@ -1,22 +1,7 @@
 # 🌦 Project: Weather API
+![2022-05-12 (8)](https://user-images.githubusercontent.com/102920855/168085262-d6b45716-9235-4364-a9bd-2c2de2a8f567.png)
+# Description:
+The user is able to enter any city and/or country code to return the current temperature in the area
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
-
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Tech Used:
+HTML, CSS, JavaScript, API, JSON
