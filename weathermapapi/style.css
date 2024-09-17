@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image: url('./14KQrxy.gif');
+    background-size: cover;
+    color: white;
+}
+h1,h1+section,section+section{
+    text-align: center;
+}
