@@ -1,22 +1,15 @@
 # 🌦 Project: Weather API
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+### The project that I created allows the user to check the weather in a selected area by entering the City, State, And Zipcode.
 
-### How to submit your code for review:
+### Link to project:https://cocky-aryabhata-03c43d.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img width="1433" alt="Screen Shot 2021-10-01 at 2 06 19 PM" src="https://user-images.githubusercontent.com/88958905/135683204-b6b6570e-334e-44fd-b4e6-e222f143b160.png">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### How It's Made:
+  Tech used: HTML, CSS, JavaScript
+  To create the weather API I first searched for a open weather API. After I found the API I then fetched it within my JavaScript. The site intially made the         degree's convert to a tempertature other then Fahrenheit, so I added a line of code to display the proper temperature scale.
+  
+### Lessons Learned:
+
+By creating this website I learned the importance of reading and understanding the documentation that comes with some API's.
