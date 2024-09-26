@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjooinn.com%2Fimages%2Fsky-181.jpg&f=1&nofb=1);
+  background-size: 100%;
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #0dabdf;
+}
+input{
+  background-color: #00a1ff59;
+  width: 15%;
+  border-radius: 15px;
+}
+form{
+  text-align: center;
+}
+h3{
+  font-size: 2rem;
+  text-align: center;
+}
