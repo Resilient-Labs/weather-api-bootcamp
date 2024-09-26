@@ -1,0 +1,72 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+      /* LAYOUT
+      /*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/******************************************
+      /* ADDITIONAL STYLES
+      /*******************************************/
+body {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: aqua;
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-image: url('./weather.gif');
+  animation-name: list;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  /* height: 100vh; */
+  padding: 0;
+  margin: 0;
+  background-attachment: scroll;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+}
+
+button {
+  background: darkgray;
+  cursor: pointer;
+}
+@keyframes list {
+  0% {
+    background-image: url('./weather.gif');
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  25% {
+    background-image: url('./lightning.gif');
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  50% {
+    background-image: url('./snow.gif');
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background: url('./sun.gif');
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
