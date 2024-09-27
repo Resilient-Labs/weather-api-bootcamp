@@ -1,0 +1,62 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  text-align: center;
+  background-color: #e8b951;
+  color: white;
+}
+h1{
+  padding-top: 10%;
+  text-shadow: 0.0625rem 0.0625rem 0.125rem #b18525;
+}
+input{
+  border: 1px solid #b18525;
+  box-shadow: 0.0625rem 0.0625rem 0.125rem #b18525;
+  height: 35px;
+}
+.button:hover .fa-sun{
+    color: white;
+    transition: 0.9s;
+    transform: rotate(180deg);
+}
+button:hover{ 
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;   
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1);}
+  100% { transform: scale(1); }
+}
+.button{
+  display: inline;
+  margin-left: 0.5%;
+}
+.sun{
+  background-image: url(../img/weather.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+button{
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  color: #e8b951;
+  box-shadow: 0.0625rem 0.0625rem 0.125rem #b18525;
+}
+h2{
+  text-shadow: 0.0625rem 0.0625rem 0.125rem #b18525;
+}
