@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 4rem;
+}
+
+body,
+body * {
+  font-family: 'Onest', 'Helvetica', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+main,
+.inputSection,
+.displaySection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main {
+  height: 960px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+main {
+  background-image: url('assets/weatherbackground.jpg');
+  background-size: cover;
+}
