@@ -1,0 +1,149 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/******************************************
+  /* LAYOUT
+  /*******************************************/
+/* Resetting and Base Styles */
+
+body {
+  background: linear-gradient(to right, #3a7bd5, #3a6073);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Header Styles */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Input and Button Styling */
+input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  outline: none;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #d0d0d0;
+}
+
+button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #ff5722;
+  transform: scale(1.05);
+}
+
+/* Messages */
+p {
+  margin: 10px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Weather Display Styling */
+.weather {
+  margin-top: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  max-width: 500px;
+}
+
+.weather h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.weather p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+/* Forecast Section */
+.forecast {
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.forecast h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#forecastContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+/* Individual Forecast Item */
+.forecast-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  input {
+    width: 100%;
+  }
+
+  .weather,
+  .forecast {
+    width: 100%;
+  }
+}
+
+/******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
