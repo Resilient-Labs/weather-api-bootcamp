@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Today's Weather</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <h1>Today's Weather</h1>
+
+    <form id="weatherForm"> 
+        <label for="city">Enter City:</label>
+        <input type="text" id="city" required />
+
+        <label for="country">Enter Country:</label>
+        <input type="text" id="country" required />
+
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="weatherDisplay">
+        <h2>Weather Details</h2>
+        <p id="temp"></p>
+    </div>
+
+    <script src="main.js"></script> 
+
+</body>
+</html>
