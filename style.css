@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+h5{
+    display: inline;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p,span{
+    padding:5px;
+    color:red
+}
+
+.description{
+    padding:none;
+    color:blue;
+    
+}
+
+.description::first-letter{
+    text-transform: uppercase
+}
