@@ -1,22 +1,14 @@
-# 🌦 Project: Weather API
+# 🌦 Weather API
+Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+https://github.com/user-attachments/assets/b4049d5d-8ddf-4c86-a9d8-71f87521c598
 
-### How to submit your code for review:
+## How It's Made:
+Weather app is built using the following technologies:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- **JavaScript (JS)**: Employed for client-side functionality.
+- **Weather api**: https://www.visualcrossing.com/
+Used to fetch the current weather and populate that data onto the document
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## What I Learned
+- How to fetch data from an API and present that data on the web page.
