@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 10em;
+    width: 100%;
+    border: 5px solid black;
+
+}
+
+main {
+    display: flex;
+    border: 5px solid black;
+    height: 40em;
+    width: 100%;
+
+}
+
+input,
+button {
+    display: block;
+}
+
+.divs {
+    flex: 1;
+    width: 50%;
+    border: 1px solid black;
+}
+
+/* ADD A NICE WEATHER APP BACKGROUND */
+
+/* CSS */
+/* .button-67 {
+    background: #f5f5fa;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff, 10px 10px 30px 0 #1d0dca17;
+    color: #003ba0;
+    cursor: pointer;
+    display: flex;
+    font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-size: 1rem;
+
+    line-height: 1.5rem;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    transition: .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    width: max-content;
+    word-break: normal;
+    word-spacing: normal;
+
+} */
+/* 
+.button-67:hover {
+    background: #f8f8ff;
+    box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+}
+
+@media (min-width: 768px) {
+    .button-67 {
+        padding: 24px;
+    }
+} */
+
+
+/* Parent background */
