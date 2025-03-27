@@ -1,0 +1,134 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Mono', Arial, Helvetica, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  background:#2E2A20;
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+span {
+  display: block;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.watch, .watchBelt {
+  margin: 0 auto;
+}
+
+.watchBelt{
+  width: 350px;
+  height: 25vh;
+  background: black;
+}
+
+.watch {
+  width: 50vh;
+  min-width: 470px;
+  height: 50vh;
+  min-height: 470px;
+
+  border-radius: 50px;
+  background: #F5F1E7;
+  border: 60px solid black;
+}
+
+.date, .bottom {
+  background-color: rgba(21,21,21, 0.7);
+  color: #F5F1E7;
+  height: 117.5;
+  padding: 2vh 0;
+}
+
+.day {
+  font-size: 1em;
+}
+.time {
+  font-size: 3em;
+}
+
+.weather {
+  color: #1b1b1b;
+  height: calc(100% - 190px);
+  padding: 2vh 0;
+  display: flex;
+}
+
+
+
+.weather > .right, .weather > .right > div, .weather > .left {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.left {
+  cursor: pointer;
+}
+
+.weather > .right {
+  flex-direction: column;
+  gap: 0;
+}
+
+.feelsLike, .wind, .uv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px
+}
+
+.feelsLikeNumber {
+  text-align: right;
+  padding: 0;  
+  width: 100%;
+}
+
+.temp > span {
+  display: inline;
+}
+
+.tempNumber {
+  font-size: 3em;
+}
+
+.tempText {
+  font-size: 1.6em;
+}
+
+.tempSign {
+  font-size: 1em;
+}
+
+.city {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: left;
+}
+
+.changeLocation {
+  font-size: .7em;
+}
