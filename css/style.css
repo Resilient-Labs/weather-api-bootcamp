@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Happy Monkey', Arial, Helvetica, sans-serif;
+    color: beige;
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 2.5px;
+    text-shadow:
+    1px 1px 2.5px red,
+    0 0 5em blue,
+    0 0 0.2em blue;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../grassbeach.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-decoration: underline;
+    font-size: 100px;
+    color: beige;
+    margin: none;
+    text-shadow:
+    1px 1px 2px red,
+    0 0 2em blue,
+    0 0 0.2em blue;
+}
+
+h1:hover{
+    transform: scale(1.05);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    color: rgb(249, 249, 157);
+}
+
+h2{
+    text-decoration: underline;
+    font-size: larger;
+    margin-top: 28px;
+}
+
+h2:hover{
+    transform: scale(1.05);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    color: rgb(249, 249, 157);
+    cursor: pointer;
+}
+
+h3{
+    text-decoration: underline;
+    font-size: larger;
+}
+
+h3:hover{
+    transform: scale(1.05);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    color: rgb(249, 249, 157);
+    cursor: pointer;
+}
+
+h4{
+    text-decoration: underline;
+    font-size: larger;
+}
+
+h4:hover{
+    transform: scale(1.05);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    color: rgb(249, 249, 157);
+    cursor: pointer;
+}
+
+h5{
+    text-decoration: underline;
+    font-size: larger;
+}
+
+h5:hover{
+    transform: scale(1.05);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    color: rgb(249, 249, 157);
+    cursor: pointer;
+}
+
+input{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: larger;
+    caret-color: darkblue;
+    color:  rgb(255, 136, 0);
+    font-weight: bold;
+}
+
+label{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+label:hover{
+    transform: scale(1.1);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    color: rgb(249, 249, 157);
+    cursor: pointer;
+}
+
+select{
+    display: block;
+    margin: 5px;
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+button{
+    padding: 5px;
+    font-size: large;
+    background-color: rgb(2, 183, 255);
+    color: beige;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+button:hover{
+    scale: 1.08;
+    background-color: rgb(255, 136, 0);
+    cursor: grab;
+}
+
+p{
+    text-decoration: underline;
+    font-size: larger;
+}
+
+p:hover{
+    transform: scale(1.05);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    color: rgb(249, 249, 157);
+    cursor: pointer;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+audio{
+    height: 12px;
+    width: 100px;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color:#41419b !important;
+    color: #41419b;
+    }
+
+audio::-webkit-media-controls-panel:hover{
+    background-color:#006eff !important;
+}
+
+audio:hover{
+    cursor: pointer;
+}
