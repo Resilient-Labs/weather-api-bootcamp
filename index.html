@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Tektur:wght@400..900&family=Unkempt:wght@400;700&family=Zen+Dots&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CAL-CLOUDS</title>
+</head>
+<body>
+    <audio controls id="myAudio" autoplay>
+        <source src="summer-bossa-nova-128331.mp3" type="audio/mpeg">
+    </audio>
+    <h1><a href="#">Cal-Cloud</a></h1>
+    <form>
+        <label for="cityName">City:🏙️</label>
+        <input type= "text" id="cityName" placeholder="Enter City Here">
+
+        <label for="stateName">State:🌲(Optional)</label>
+        <select id="stateName">
+            <option value="">Select a State</option>
+            <option value="AL">Alabama (AL)</option>
+            <option value="AK">Alaska (AK)</option>
+            <option value="AZ">Arizona (AZ)</option>
+            <option value="AR">Arkansas (AR)</option>
+            <option value="CA">California (CA)</option>
+            <option value="CO">Colorado (CO)</option>
+            <option value="CT">Connecticut (CT)</option>
+            <option value="DE">Delaware (DE)</option>
+            <option value="FL">Florida (FL)</option>
+            <option value="GA">Georgia (GA)</option>
+            <option value="HI">Hawaii (HI)</option>
+            <option value="ID">Idaho (ID)</option>
+            <option value="IL">Illinois (IL)</option>
+            <option value="IN">Indiana (IN)</option>
+            <option value="IA">Iowa (IA)</option>
+            <option value="KS">Kansas (KS)</option>
+            <option value="KY">Kentucky (KY)</option>
+            <option value="LA">Louisiana (LA)</option>
+            <option value="ME">Maine (ME)</option>
+            <option value="MD">Maryland (MD)</option>
+            <option value="MA">Massachusetts (MA)</option>
+            <option value="MI">Michigan (MI)</option>
+            <option value="MN">Minnesota (MN)</option>
+            <option value="MS">Mississippi (MS)</option>
+            <option value="MO">Missouri (MO)</option>
+            <option value="MT">Montana (MT)</option>
+            <option value="NE">Nebraska (NE)</option>
+            <option value="NV">Nevada (NV)</option>
+            <option value="NH">New Hampshire (NH)</option>
+            <option value="NJ">New Jersey (NJ)</option>
+            <option value="NM">New Mexico (NM)</option>
+            <option value="NY">New York (NY)</option>
+            <option value="NC">North Carolina (NC)</option>
+            <option value="ND">North Dakota (ND)</option>
+            <option value="OH">Ohio (OH)</option>
+            <option value="OK">Oklahoma (OK)</option>
+            <option value="OR">Oregon (OR)</option>
+            <option value="PA">Pennsylvania (PA)</option>
+            <option value="RI">Rhode Island (RI)</option>
+            <option value="SC">South Carolina (SC)</option>
+            <option value="SD">South Dakota (SD)</option>
+            <option value="TN">Tennessee (TN)</option>
+            <option value="TX">Texas (TX)</option>
+            <option value="UT">Utah (UT)</option>
+            <option value="VT">Vermont (VT)</option>
+            <option value="VA">Virginia (VA)</option>
+            <option value="WA">Washington (WA)</option>
+            <option value="WV">West Virginia (WV)</option>
+            <option value="WI">Wisconsin (WI)</option>
+            <option value="WY">Wyoming (WY)</option>
+        </select>
+
+
+        <label for="countryName">Country:🏴󠁧󠁢󠁥󠁮󠁧󠁿</label>
+        <select id="countryName">
+            <option value="">Select a Country</option>
+            <option value="US">United States (US)</option>
+            <option value="CA">Canada (CA)</option>
+            <option value="MX">Mexico (MX)</option>
+            <option value="GB">United Kingdom (GB)</option>
+            <option value="FR">France (FR)</option>
+            <option value="DE">Germany (DE)</option>
+            <option value="IT">Italy (IT)</option>
+            <option value="ES">Spain (ES)</option>
+            <option value="AU">Australia (AU)</option>
+            <option value="JP">Japan (JP)</option>
+            <option value="CN">China (CN)</option>
+            <option value="IN">India (IN)</option>
+            <option value="BR">Brazil (BR)</option>
+            <option value="ZA">South Africa (ZA)</option>
+            <option value="RU">Russia (RU)</option>
+            <option value="KR">South Korea (KR)</option>
+            <option value="NG">Nigeria (NG)</option>
+            <option value="AR">Argentina (AR)</option>
+            <option value="EG">Egypt (EG)</option>
+            <option value="SE">Sweden (SE)</option>
+            <option value="NL">Netherlands (NL)</option>
+            <option value="CH">Switzerland (CH)</option>
+            <option value="TR">Turkey (TR)</option>
+            <option value="NZ">New Zealand (NZ)</option>
+            <option value="PH">Philippines (PH)</option>
+            <option value="ID">Indonesia (ID)</option>
+            <option value="TH">Thailand (TH)</option>
+            <option value="VN">Vietnam (VN)</option>
+            <option value="PL">Poland (PL)</option>
+            <option value="PK">Pakistan (PK)</option>
+            <option value="MY">Malaysia (MY)</option>
+            <option value="SA">Saudi Arabia (SA)</option>
+            <option value="AE">United Arab Emirates (AE)</option>
+            <option value="IL">Israel (IL)</option>
+            <option value="SG">Singapore (SG)</option>
+            <option value="BE">Belgium (BE)</option>
+            <option value="NO">Norway (NO)</option>
+            <option value="FI">Finland (FI)</option>
+            <option value="DK">Denmark (DK)</option>
+            <option value="PT">Portugal (PT)</option>
+            <option value="AT">Austria (AT)</option>
+            <option value="GR">Greece (GR)</option>
+            <option value="CZ">Czech Republic (CZ)</option>
+            <option value="HU">Hungary (HU)</option>
+            <option value="RO">Romania (RO)</option>
+            <option value="CL">Chile (CL)</option>
+            <option value="CO">Colombia (CO)</option>
+            <option value="PE">Peru (PE)</option>
+            <option value="BD">Bangladesh (BD)</option>
+            <option value="UA">Ukraine (UA)</option>
+            <option value="IE">Ireland (IE)</option>
+            <option value="HK">Hong Kong (HK)</option>
+        </select>
+        
+        <button id="submit" type="button">(Cal)c Weather</button>    
+    </form>    
+
+    <h2>Location:📍</h2>
+    <p>Details:🌤️</p>
+    <h3>Temperature:🌡️</h3>
+    <h4>Sunrise:🌅</h4>
+    <h5>Sunset:🌇</h5>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
