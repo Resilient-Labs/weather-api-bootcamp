@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3N4eHg5ZWhnemNxM2lkaGcybWl5bmpoZ2sxMXFnZzl6eHFhZjBtayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mNG0rIdAYvLog0Wr8H/giphy.gif"); 
+}
+
+input, button {
+    display: block;
+    margin-top: 10px;
+    width: 200px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color:darkblue;
+}
