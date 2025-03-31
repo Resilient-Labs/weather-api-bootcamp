@@ -1,0 +1,202 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  text-align: center;
+  background-image: url('../img/sky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hide {
+  display: none;
+}
+
+h1, h2 {
+  color: white;
+  text-shadow: 
+    0 0 1px rgb(190, 190, 190), 
+    0 0 2px rgb(190, 190, 190), 
+    0 0 3px lightgray, 
+    0 0 4px lightgray, 
+    0 0 5px gray;
+}
+
+h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-shadow: 
+    0 0 1px rgb(190, 190, 190), 
+    0 0 2px rgb(190, 190, 190), 
+    0 0 3px lightgray, 
+    0 0 4px lightgray, 
+    0 0 5px gray;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h4 {
+  font-size: 2em;
+}
+/* h5 {
+
+} */
+h6 {
+  font-size: 1em;
+}
+
+
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.report {
+  padding: 50px;
+}
+
+div.user {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.underline-input {
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background-color: transparent;
+  padding: 5px 0;
+  color: white;
+  text-shadow: 
+    0 0 1px rgb(190, 190, 190), 
+    0 0 2px rgb(190, 190, 190), 
+    0 0 3px lightgray, 
+    0 0 4px lightgray, 
+    0 0 5px gray;
+  font-size: 16px;
+}
+
+
+.underline-input::placeholder {
+  color: white;
+  text-shadow: 
+    0 0 1px black, 
+    0 0 2px black, 
+    0 0 3px gray, 
+    0 0 4px lightgray, 
+    0 0 5px white;
+}
+
+.underline-input:focus {
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+
+.btn {
+  align-items: center;
+  background-color: rgb(120, 200, 200);
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  color: white;
+  text-shadow: 
+    0 0 1px black, 
+    0 0 2px black, 
+    0 0 3px gray, 
+    0 0 4px lightgray, 
+    0 0 5px white;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.btn:hover {
+  background: rgb(121, 204, 204);
+  color: #dedede;
+}
+
+.btn:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.btn:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.btn:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.btn:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.btn:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+
+@media (max-width: 772px) {
+  div.user {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 432px) {
+  div.user {
+    width: 80%;
+  }
+
+  .header {
+    font-size: 1.5em;
+  }
+}
