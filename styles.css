@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    background-image: url(background.jpg);
+    background-size: 100%;
+}
+
+.sun{
+    width: 20%;
+    height: 20%;
+}
