@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Lato:wght@300;400;700&family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+		<title>Weather Map API</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>		
+		<header>
+			<nav>
+				<div class="logo">
+					<i class="fas fa-cloud-sun"></i> Weather Map
+				</div>
+				<ul>
+					<li><i class="fas fa-home"></i> Home</li>
+					<li><i class="fas fa-info-circle"></i> About</li>
+					<li><i class="fas fa-envelope"></i> Contact</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<!-- <section class="hero">
+				<h2>Stay Updated on Weather Conditions!</h2>
+				<h4>Your trusted source for accurate weather forecasts.</h4>
+			</section> -->
+			<section>
+        		<h1>Check the current temperature in your city!</h1>
+        		<label for="location">Location (City, Country):</label>
+        		<input type="text" id="location" placeholder="e.g., Boston, US" required>
+        		<button type="button" name="button">Get temperature</button>
+        		<p>Temperature</p>
+			</section>
+			<section class="results">
+				<h3>Weather Details</h3>
+				<div class="weather-card">
+					<i class="fas fa-temperature-high"></i> <span id="temperature"></span>
+					<i class="fas fa-tint"></i> <span id="humidity"></span>
+					<i class="fas fa-wind"></i> <span id="wind-speed"></span>
+				</div>
+			</section>
+		</main>	
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
