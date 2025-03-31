@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Baskervville' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #EDF4F2;
+    margin: 0;
+    padding: 20px;
+}
+.flexbox {
+    display: flex;
+}
+.middle {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10 2px 10px rgba(45, 50, 60);
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: #7C8363;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid beige;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor:crosshair;
+    background-color: papayawhip;
+    color: black;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: olivedrab;
+}
+
+.navlist {
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links {
+    list-style: none;
+    margin: 10px;
+}
+.links a {
+    text-decoration: none;  
+    color: #31473A; 
+}
+
+#reset {
+    background-color: red;
+    width: 100px;
+    position: relative;
+}
+
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.middle {
+    display: flex;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 600px;
+    margin: 1%;
+}
+img {
+    width: 600px;
+    height: 300px;
+}
+div {
+    height: 300px;
+    width: 600px;
+}
