@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="A web application for displayinf weather at a given location/area">
+		<meta name="keywords" content="weather, API, Javascript, HTML, CSS">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Bytesized&family=Rock+Salt&display=swap" rel="stylesheet">
+		<title>Weather App</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="header">
+			<h1>Weather Forecast</h1>
+			<h2>Enter a city and country</h2>
+			<div class="user">
+				<input type="text" placeholder="Paris, France" class="underline-input" />
+				<button class="btn" role="button">Get Weather Report</button>
+			</div>
+		</section>
+
+		<section class="report hide">
+			<div class="mainReport">
+				<img src="" alt="">
+				<h3>Location</h3>
+				<h4>TempºF | TempºC</h4>
+				<h5>Feels Like</h5>
+				<h6>UV Index</h6>
+			</div>
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
