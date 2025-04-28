@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background-image: url(https://t4.ftcdn.net/jpg/07/24/00/11/360_F_724001193_eKGDuOZwvJoLt2zYHQQuFyyf2kQh7qEP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 10px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+h3{
+    font-size: 1rem;
+    padding: 5px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    padding: 10px;
+}
+
+input{
+    width: 20%;
+    height: 30px;
+    font-size: 1rem;
+    text-align: center; 
+    margin: 5px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(85, 138, 200);
+    color: white;
+    margin: 5px;
+    width: 100px;
+    font-size: 1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 30%;
+    gap: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
