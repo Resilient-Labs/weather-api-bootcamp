@@ -20,3 +20,23 @@ I completed the challenge: 5
 I feel good about my code: 4
 I'm not sure if my constructors are setup cleanly...
 ```
+I completed the challenge: 5
+I feel good about my code: 4
+It works :D
+
+Weather api project
+
+
+How It's Made:
+
+Tech used: HTML, CSS, JavaScript
+
+i used the openweather api to grab the weather for any given city. The temperature normally appears in kelvin, so i converted it to fahrenheit
+
+Optimizations
+
+make prettier?
+
+Lessons Learned:
+
+i learned to work with the open weather api, and got some experience working with the api query parameters
