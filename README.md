@@ -1,22 +1,30 @@
-# 🌦 Project: Weather API
+# Simple Weather API
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+> View the current weather by entering your desired location.
 
-### How to submit your code for review:
+> <img src="./images/screenshot.png" alt="Screenshot of completed Weather API App" width="500">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Table of Contents
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+1. [Tech Stack](#tech-stack)
+1. [Development](#development)
+   1. [Weather API](#weather-api)
+   1. [Notes](#notes)
+
+## Tech Stack
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+
+## Development
+
+### Weather API
+
+- Obtain a free API key from: https://www.weatherapi.com/
+- Update the `WEATHER_API_KEY` value with your key on line 1 of main.js.
+- Open the app in your browser, and enter a city and state or zip code and view the current weather!
+
+### Notes
+
+View the official documentation at https://www.weatherapi.com/docs/ for more information on API use, copyright, and rate limitations.

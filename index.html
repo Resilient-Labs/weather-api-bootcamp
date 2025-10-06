@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="View the current weather by entering your desired location"
+    />
+    <meta name="keywords" content="weather, api, current" />
+
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <h1>Weather App</h1>
+
+      <section class="col">
+        <label for="zip">Enter city/state or zip code:</label>
+        <div>
+          <input id="zip" />
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </section>
+
+      <section id="weather">
+        <div>
+          <span id="tempF"></span>
+          <span id="tempC"></span>
+        </div>
+        <img id="icon" src="" />
+        <p>
+          <span id="city"></span>
+          <span id="state"></span>
+          <span id="country"></span>
+        </p>
+        <p id="date"></p>
+      </section>
+    </main>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
