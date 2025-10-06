@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../img/nature.avif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #143a63;
+    letter-spacing: .5px;
+    margin: 0 0 .25rem;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    color: #f59e0b;
+    font-weight: 600;
+    margin: .25rem 0 .5rem;
+}
+
+#today-date {
+    font-size: 1.05rem;
+    color: #314862;
+    font-weight: 600;
+    margin: 8px 0 16px;
+}
+
+/* Input & Button */
+#weather-input {
+    margin: 30px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#location-input {
+    border: none;
+    border-radius: 35px;
+    padding: 12px 20px;
+    width: 270px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+#search-btn {
+    border: none;
+    background: linear-gradient(135deg, #fbbf24, #f97316);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.25s ease;
+}
+
+#search-btn:hover {
+    transform: scale(1.1);
+}
+
+#search-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Forecast Cards */
+#weather-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 35px 0 50px;
+    flex-wrap: nowrap;
+}
+
+#weather-cards li {
+    list-style: none;
+    background: linear-gradient(180deg,
+            #ffe2b6bf 0%,
+            rgba(255, 237, 213, 0.65) 35%,
+            rgba(173, 208, 255, 0.65) 100%);
+    color: #1f2a44;
+    border-radius: 18px;
+    width: 150px;
+    text-align: center;
+    padding: 16px 14px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#weather-cards li:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+#weather-cards img {
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+}
+
+#weather-cards p {
+    margin: 5px 0;
+    color: #1f2a44;
+    font-weight: 400;
+}
+
+#weather-cards p:first-child {
+    font-weight: 600;
+    color: #1f2a44;
+}
+
+/* Animations */
+.fade-up {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeUp .6s ease-out forwards;
+}
+
+#weather-cards li {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeUp .5s ease-out forwards;
+}
+
+/* from ChatGPT on staggered delays for weather cards */
+#weather-cards li:nth-child(1) {
+    animation-delay: .10s;
+}
+
+#weather-cards li:nth-child(2) {
+    animation-delay: .18s;
+}
+
+#weather-cards li:nth-child(3) {
+    animation-delay: .26s;
+}
+
+#weather-cards li:nth-child(4) {
+    animation-delay: .34s;
+}
+
+#weather-cards li:nth-child(5) {
+    animation-delay: .42s;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* from ChatGPT */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
