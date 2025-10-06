@@ -1,0 +1,136 @@
+/******************************************
+/* Box Model Hack Reference openai
+/*******************************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************************
+/* BODY & LAYOUT 
+/*******************************************/
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  padding: 2rem;
+  transition: background 0.5s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+/* Container */
+div {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent for readability */
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+/******************************************
+/* INPUTS & BUTTONS
+/*******************************************/
+input[type="text"] {
+  padding: 0.6rem 1rem;
+  margin: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 80%;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  margin: 0.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #023e8a;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+  margin: 0 0.3rem 0 1rem;
+}
+
+/******************************************
+/* WEATHER INFO DISPLAY
+/*******************************************/
+h2, h3 {
+  margin: 1rem 0;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+/******************************************
+/* WEATHER BACKGROUNDS
+/*******************************************/
+.sunny {
+  background: url('../img/sunny.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.cloudy {
+  background: url('../img/cloudy.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.rainy {
+  background: url('../img/rainy.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.snowy {
+  background: url('../img/snowy.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.defaultWeather {
+  background: url('../img/default.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Mobile Optimization: 720px and below */
+@media (max-width: 720px) {
+  body {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  input[type="text"],
+  button {
+    width: 100%;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+
+  button {
+    padding: 0.8rem;
+  }
+
+  div {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is where your description goes">
+	<meta name="keywords" content="one, two, three">
+
+	<title>Current Weather App</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="defaultWeather">
+	<div>
+		<!-- Form -->
+		<h1>Check the Weather for Your City</h1>
+		<input type="text" name="" value="" placeholder="Enter City">
+
+		<h4>Enter Country</h4>
+		<input type="text" id="country" placeholder="Enter Country">
+
+		<h4>Select Unit</h4>
+		<!-- Radio Buttons -->
+		<input type="radio" name="unit" id="fahrenheit" value="imperial" checked>
+		<label for="fahrenheit">Fahrenheit</label>
+
+		<input type="radio" name="unit" id="celsius" value="metric">
+		<label for="Celsius">Celsuis</label>
+		<!-- Submit Button -->
+		<button type="button" name="button">Submit</button>
+
+		<!-- Display Weather Info -->
+		<h2 id="city">Location: </h2>
+		<div id="displayTemp"></div>
+		<h3 id="currentTemp">Current Temperature: </h3>
+		<h3 id="weather">Current weather: </h3>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
