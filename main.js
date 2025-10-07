@@ -50,3 +50,7 @@ async function getWeather() {
 // } catch (error) {
 // 	console.error(error);
 // }
+
+//SOURCES
+//Worked on with Maureen Zitouni RC 2025B and used NASA project and weather app I worked on with Ryan Hernandez-French RC Alum as template, google gemini for debugging aid
+//referenced @Leon Noel Lecture, @mdn @dcode https://www.youtube.com/watch?v=X6MFUagtKiQ
