@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center ;
+    text-align: center;
+    height: 100vh;
+    background-image: url('https://rapidapi-prod-collections.s3.amazonaws.com/collection/iStock-477110708.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+h1, p {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    color: blue;
+    font-size: 30px;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+button {
+    background-color: hsl(195, 84%, 38%);
+    color: white;
+    font-size: 35px;
+    padding: 15px 40px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+}
+
+input {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid black;
+    margin: 20px;
+}
