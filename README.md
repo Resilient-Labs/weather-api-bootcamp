@@ -14,5 +14,5 @@ A web application that lets a user enter a city and the API will fetch that citi
 
 ## Image of Project:
 
-![Doomsday Poster](public/img/marvel-talk.jpg)
+![Weather App Image](weatherapp.png)
 
