@@ -1,22 +1,14 @@
-# 🌦 Project: Weather API
+# Project: Weather API
+<img width="1920"  alt="image" src="https://github.com/user-attachments/assets/55cfc037-932d-4fa8-bd9c-ed93577e1f23" />
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+This code provides the front-end logic for a simple weather application that uses the OpenWeatherMap API to retrieve current weather data for a user-specified city. An event listener is attached to a button, triggering the getFetch function when clicked. This function reads the city name from an input field, constructs a fetch request using a hardcoded API key, and sends it to the OpenWeatherMap endpoint. Upon receiving the JSON response, the script performs a calculation to convert the temperature from Kelvin to Fahrenheit and then dynamically updates <h3> and <h4> DOM elements with the current temperature and wind speed, respectively
 
-### How to submit your code for review:
+### Tech Stack
+- HTML
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- CSS
+  
+- JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### Live Demo
+Click the link on the right under About to see the live demo.
