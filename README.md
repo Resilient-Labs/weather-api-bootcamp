@@ -1,22 +1,13 @@
-# 🌦 Project: Weather API
+Project: Weather API
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+The Weather API uses data from the OpenWeatherMap API to retrieve current weather information through the fetch function. The user enters the name of a city and country to receive the day’s temperature.
 
-### How to submit your code for review:
+How It's Made:
+Tech used: HTML, CSS, and JavaScript
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Lessons Learned:
+I learned how to use fetch function and catch up some errors effectively. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<img width="932" height="630" alt="Screenshot 2025-10-09 at 12 32 56 PM" src="https://github.com/user-attachments/assets/59e3f941-a191-4773-a8c7-a7b49231b989" />
+
+Find the live project here https://innocent-r.github.io/weather-api/
