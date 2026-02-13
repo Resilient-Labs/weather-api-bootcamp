@@ -1,0 +1,92 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+main{
+  width: 50%;
+  margin: 20px auto;
+  max-width: 448px;
+  min-width: 290px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.weather-component{
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap : 10px;
+  width: 100%;
+}
+
+.info{
+  min-height:9rem;
+  border-bottom: 2px solid black;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+input{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 0;
+  font-size: 1.2rem;
+}
+
+button{
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 5px gray;
+  background-color: rgba(16, 183, 16, 0.567);
+  font-size: 1.2rem;
+}
+
+button:active{
+  background-color: white;
+  color: black;
+}
+
+h2{
+  text-align: center;
+}
+
+#temperature{
+  font-size: 4rem;
+}
+
+#location{
+  font-size: 1.2rem;
+  margin: 20px;
+  color: gray
+}
