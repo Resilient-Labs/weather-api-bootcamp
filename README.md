@@ -1,22 +1,47 @@
-# 🌦 Project: Weather API
+# 🌦 Weather API
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+> A RESTful API service exposing weather data (current + forecast) via a clean, developer-friendly interface.
 
-### How to submit your code for review:
+---
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Overview
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+The **Weather API** project wraps external weather data sources (like OpenWeatherMap API or similar) to provide a unified, simplified API for retrieving current conditions, forecasts, and optionally historical weather. Great for front-end dashboards, mobile apps, or IoT projects.
+
+---
+
+## Features
+
+- Display temperature both in Fahrenheit & Celcius
+- Retrieve current weather for a location (by city / lat-lon)
+- Clean, consistent JSON responses tailored for client use  
+- Environment variable configuration for API keys and ports  
+- Error handling and input validation built in  
+
+---
+
+<img width="1600" height="782" alt="Screenshot 2025-11-10 at 19 29 05" src="https://github.com/user-attachments/assets/e7a70a5d-c135-48b6-bd1e-9691afd6c2f8" />
+<img width="1600" height="763" alt="Screenshot 2025-11-10 at 19 31 13" src="https://github.com/user-attachments/assets/38c2e36a-4a30-40b0-8d9e-83a94f1e70d0" />
+
+---
+
+## Prerequisites
+
+Before you begin, make sure you have:
+
+- A working internet connection to access weather API endpoints  
+- An API key from your chosen weather service (e.g., OpenWeatherMap)  
+
+---
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/AngelBelRoth/api-weather.git
+
+# Navigate into the directory
+cd api-weather
+
+# Install dependencies
+npm install
