@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+		<!-- get around mixed media errors -->
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+    	<meta name="description" content="A search for weather at a location">
+    	<meta name="keywords" content="API, Weather">
+		<title>Weather</title>
+
+		<!-- external CSS link -->
+		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<fieldset>
+			<legend>Select Criteria</legend>
+			<input id="wildCard" type="text" name="userInput" value="" placeholder="Location">
+			<button type="submit" name="button">Submit Request</button>
+		</fieldset>
+		<h5>Temperature at that location in Fahrenheit</h5>
+		<h6 id="output"></h6>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
