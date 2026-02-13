@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(137, 186, 209);
+}
+h1{
+    color: rgb(16, 82, 16);
+}
+h2{
+    color: rgb(223, 76, 100);
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(187, 160, 160);
+    color: rgb(18, 73, 87);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    input[type="text"], button {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1, input[type="text"], button, h2, h3 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    input[type="text"], button {
+        margin-bottom: 10px;
+    }
+}
