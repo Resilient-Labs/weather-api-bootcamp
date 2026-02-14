@@ -1,22 +1,18 @@
-# 🌦 Project: Weather API
+# Simple Weather API
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+Users can enter in a city and country to receive the temperature of the desired city in farenheit.
 
-### How to submit your code for review:
+_The website is pretty un CSS'd but it works you can view it [here](https://godwinkamau.github.io/simple-weather-api/)_
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<hr>
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Tech Used
+
+HTML, CSS, JavaScript, NASA API
+
+<hr>
+
+## Lessons Learned
+
+- Using the openweather API to use query parameters to find the weather and temperature of a city
+- Returning the results to the DOM, translating it to a readable syntax.
