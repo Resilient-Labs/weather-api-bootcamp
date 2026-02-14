@@ -1,22 +1,18 @@
-# 🌦 Project: Weather API
+# Weather API APP
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+A web application that lets a user enter a city and the API will fetch that cities weather and render it on the frontend!
 
-### How to submit your code for review:
+## Tech Stack
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- **Frontend:** HTML, CSS, and JavaScript!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+## Lessons Learned:
+
+- Learned how to access a weather API
+- Learned how to extract data from an API and render that data on the frontend!
+
+## Image of Project:
+
+![Weather App Image](weatherapp.png)
+
