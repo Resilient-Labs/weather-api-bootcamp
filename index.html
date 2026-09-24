@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Look up the current temperature for any city and country">
+		<meta name="keywords" content="weather, api, fahrenheit">
+
+		<title>Weather API</title>
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<h1>Weather Lookup</h1>
+		<p>Enter a city and country to get the current temperature in Fahrenheit.</p>
+
+		<label for="city-input">City</label>
+		<input type="text" id="city-input" placeholder="e.g. Philadelphia">
+
+		<label for="country-input">Country code (2 letters)</label>
+		<input type="text" id="country-input" placeholder="e.g. US">
+
+		<button type="button" id="weather-btn">Get Weather</button>
+
+		<p id="error-message" role="alert"></p>
+
+		<div id="result">
+			<h2 id="result-location"></h2>
+			<p id="result-temp"></p>
+			<p id="result-description"></p>
+		</div>
+
+		<!-- config.js holds the API key and is gitignored - see README for setup -->
+		<script type="text/javascript" src="js/config.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
