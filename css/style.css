@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 500px;
+	margin: 40px auto;
+	padding: 0 20px;
+	color: #222;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+label{
+	display: block;
+	margin-top: 12px;
+	font-weight: bold;
+}
+
+input{
+	width: 100%;
+	padding: 8px;
+	font-size: 1rem;
+	margin-top: 4px;
+}
+
+button{
+	margin-top: 16px;
+	padding: 10px 16px;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+/* empty by default - only shows up (and turns red) when showError() fills it in */
+#error-message{
+	color: #b00020;
+	font-weight: bold;
+}
+
+#result{
+	margin-top: 24px;
+}
