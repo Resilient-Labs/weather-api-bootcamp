@@ -1,0 +1,135 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+/* .clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+} */
+
+/* .clear {
+	clear: both;
+} */
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f0ea;
+  /* font-family:'Courier New', Courier, monospace; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #262522;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+main {
+  width: 90%;
+  max-width: 650px;
+  padding: 45px;
+  background: #ffffff;
+  border: 1px solid #ddd8cf;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.searchContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #b8b3aa;
+  border-radius: 6px;
+  background: #faf9f7;
+  color: #262522;
+  font-size: 1rem;
+
+}
+
+input:focus {
+  outline: none;
+  border-color: #6c695f;
+}
+
+/* input:hover {
+  background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+} */
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #292824;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #494740;
+}
+
+/* WEATHER RESULTS */
+
+.weatherResults {
+  padding-top: 25px;
+  border-top: 1px solid #ddd8cf;
+  text-align: center;
+}
+
+#location {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#temperature {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+/* #temperature:hover {
+  color: #ffe38e;
+} */
+
+#condition {
+  margin-top: 10px;
+  color: #6c695f;
+}
+
+#message {
+  margin-top: 10px;
+  color: #8a5147;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="A simple weather application">
+  	<meta name="keywords" content="weather, API, temperature">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Weather API</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<main>
+			<h1>Weather</h1>
+
+			<div class="searchContainer">
+				<input type="text" id="city" placeholder="Enter Your City">
+				<input type="text" id="country" placeholder="Enter Your Country">
+				<button id="searchWeather" type="button">Get Weather</button>
+			</div>
+
+			<section class="weatherResults">
+				<h2 id="location"></h2>
+				<p id="temperature"></p>
+				<p id="condition"></p>
+				<p id="message"></p>
+			</section>
+			
+		</main>
+
+
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
