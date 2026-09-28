@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find The Weather</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Get the weather</h1>
+        </header>
+
+        <main>
+            <section>
+                <p>Enter a city and state/country. We'll check weatherapi and show you the current weather.</p>
+                <label for="city">City: </label>
+                <input type="text" id="cityName">
+                <label for="country">State/Country: </label>
+                <input type="text" id="countryName" maxlength="2">
+                <button id="weatherButton">Show Weather</button>
+            </section>
+
+            <section>
+                <h2>Today At This Time</h2>
+                <div id="showTodayDate"></div>
+
+                <h2>Conditions</h2>
+                <div id="showWeatherCondition"></div>
+                <img src="" alt="">
+
+                <h2>Ultraviolet (UV) Radiation</h2>
+                <div id="showUV"></div>
+
+                <h2>Tempature</h2>
+                <div id="showTempature"></div>
+                <div id="showFeelsLike"></div>
+
+                <h2>Humidity</h2>
+                <div id="showHumidity"></div>
+
+                <h2>Wind Speed</h2>
+                <div id="showWind"></div>
+
+                <h2>US EPA Index</h2>
+                <div id="showAirQuality"></div>
+            </section>
+        </main>
+
+        <footer>
+            <small>Made by: Niles</small>
+        </footer>
+
+        <script type="text/javascript" src="js/main2.js"></script>
+    </body>
+
+</html>

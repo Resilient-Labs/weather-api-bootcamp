@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: hidden;
+    background: paleturquoise;
+}
+
+header,
+footer {
+    flex-shrink: 0;
+    padding: 1rem;
+    background: teal;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+section {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: lightyellow;
+    border: 1px solid teal;
+    border-radius: 6px;
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+label {
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input {
+    padding: 1rem;
+    border: 1px solid turquoise;
+    border-radius: 4px;
+}
+
+#countryName {
+    width: 5rem;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 4px;
+    background: coral;
+    color: black;
+    border: 1px solid tomato;
+}
+
+button:hover {
+    background: gold;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    padding: 1rem 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 0.5rem;
+}
+
+footer {
+    font-size: 1rem;
+}
