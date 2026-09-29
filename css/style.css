@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width:700px;
+    background:#c9e5f3;
+    padding:25px;
+    margin:60px auto;
+}
+
+h1{
+    text-align: center;
+
+}
+input{
+    width:100%
+}
+button{
+    padding:15px 30px;
+    border:none;
+    background:#386c82;
+    color:aliceblue;
+    margin-top: 15px;
+    border-radius:9px;
+}
+#weather{
+    background:white;
+    border-radius:10px;
+    margin:25px;
+    padding:30px;
+  
+}
