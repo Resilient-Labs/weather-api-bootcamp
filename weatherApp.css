@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    text-align: center;
+    background: rgb(126, 126, 126);
+}
+
+h1 {
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+
+input {
+    padding: 20px;
+}
+
+button {
+    padding: 20px;
+    background: rgb(0, 255, 102);
+    color: white;
+}
+
+p {
+    font-size: 2rem;
+}
