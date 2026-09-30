@@ -1,0 +1,74 @@
+body {
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  justify-content:center; /* Centers content horizontally */
+  align-items:center;     /* Centers content vertically */
+  background: url('../images/Avatar.jpg') center / cover no-repeat;
+
+}
+
+.container{
+    font-family: "Comic Sans MS", sans-serif;
+    place-items:center;
+    border:3px solid rgb(84, 167, 182);
+    border-radius:10px;
+    width:450px;
+    height:450px;
+    padding-top:50px;
+ /* backdrop-filter: blur(7px); */
+    background: url('../images/YinYang.jpg') center / cover no-repeat;
+}
+
+input{
+    text-align:center;
+}
+
+h2{
+    color:white;
+    margin-top:120px;
+}
+
+.temp{
+    font-size:20px;
+    color:white;
+}
+
+.inline{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-30px;
+    margin-bottom:80px;
+}
+
+.contain{
+    margin-top:-23px;
+    border:px solid pink;
+    border-radius:2px;
+    height:5px;
+}
+
+input::placeholder{
+    text-align:center;
+    font-style:italic;
+}
+
+.weatherIcon{
+    padding-top:40px;
+    display:grid;
+    place-items: center;;
+}
+
+button{
+    width:70px;
+    height:26px;
+    background-color:rgb(128, 206, 234);
+    cursor:pointer;
+}
+
+.cityName, .countryCode{
+    height:20px;
+  /*border:none;
+    outline:none;*/
+}
