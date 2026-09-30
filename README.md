@@ -2,7 +2,7 @@
 
 A simple weather app where you type in a city and a country code, and it shows the current temperature, a weather icon, and a short description of the weather. It uses the Weatherstack API to get the weather data.
 
-**Link to project:** https://avatar-weather-app.netlify.app
+**Live Demo:** https://avatar-weather-app.netlify.app
 
 [![Screenshot-2026-09-29-at-3-32-59-AM.png](https://i.postimg.cc/gjMK2sW3/Screenshot-2026-09-29-at-3-32-59-AM.png)](https://postimg.cc/QKT76pVM)
 
