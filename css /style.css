@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after{
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+body{
+    background: linear-gradient(#053b4e,#09613f, #0a8b6f);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 60rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+#currentArea{
+    width:20%;
+}
+#currentCity{
+    display:block;
+    margin-top: 1rem;
+}
+
+#weatherCondition{
+    display:block;
+    margin-top: -1rem;
+    font-size: 1.1rem;
+}
+#temperature{
+    font-size: 1.6rem;
+}
