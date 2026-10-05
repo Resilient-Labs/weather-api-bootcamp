@@ -9,18 +9,12 @@ function getWeather(){
    // const date = document.querySelector('input[type="date"]').value
     const city = document.querySelector('#city').value
     const country = document.querySelector('#country').value
-    let temperature = document.querySelector('p')
-    //console.log(date)
-    console.log(city)
-    //&q=${city},${country}
-    //&q=${city}&country=${country}
+    let temperature = document.querySelector('#weather-report')
     fetch(`http://api.weatherapi.com/v1/current.json?key=${appConfig.weatherAPIKEY}&q=${city}, ${country}`)
         .then(result => result.json()) // parse to json
         .then(data =>{
             console.log(data)
             temperature.innerText = `Today's temperature is ${data.current.temp_f} °F`
-            // do stuff with data
-            //display data on DOM
         })    
 }
 
