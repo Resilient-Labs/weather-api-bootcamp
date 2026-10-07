@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+h1{
+  color:black;
+  display: flex;
+  justify-self: center;
+}
+
+h2{
+  color:black;
+  display: flex;
+  justify-self: center;
+}
+
+input,button,span{
+  color:black;
+  display: flex;
+  justify-self: center;
+}
+button,input{
+  border-radius: 25px;
+}
+input{
+  margin-top: 3%;
+}
+img{
+  display: flex;
+  justify-self: center;
+}
+span{
+  font-size:2rem;
+}
+section{
+border: 1px solid white;
+border-radius: 10%;
+width: 35%;
+height:450px;
+margin-left:40%;
+margin-top: 20%;
+}
+
+#placeTemp, #placeName,#placeReg,#placeCountry{
+  width: auto;
+}
+@media (max-width:480px){
+  section{
+    width:95%;
+    border-radius: 15px;
+    font-size: 1rem;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-size: cover;
+  }
+}
+
