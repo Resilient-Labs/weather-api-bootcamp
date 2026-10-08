@@ -32,9 +32,9 @@ h1, h2{
 
     div {
         align-self: center;
-        
+        padding: 1rem; 
         max-width: 70rem;
-        min-height: 40rem;
+        min-height: 20rem;
     }
 }
 
