@@ -1,0 +1,43 @@
+:root {
+--black: #000000ff;
+--prussian-blue: #14213dff;
+--orange: #fca311ff;
+--alabaster-grey: #e5e5e5ff;
+--white: #ffffffff;
+}
+
+html {
+    font-size: 62.50%
+}
+
+body {
+    background: var(--prussian-blue);
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+}
+
+h1, h2{
+    font-family: 'MuseoModerno', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background: var(--alabaster-grey);
+    border-radius: 3rem;
+    color: black;
+
+    div {
+        align-self: center;
+        padding: 1rem; 
+        max-width: 70rem;
+        min-height: 20rem;
+    }
+}
+
+.results{
+    color:white;
+}
