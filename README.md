@@ -24,3 +24,7 @@ This project helped me practice working with APIs in JavaScript, using `fetch()`
 Weather data is provided by [WeatherAPI](https://www.weatherapi.com/).
 
 The API key is stored separately from the main application code and is not included in this repository.
+
+## Project Preview
+
+<img width="475" height="269" alt="Screenshot 2026-10-11 at 2 06 53 AM" src="https://github.com/user-attachments/assets/0768de37-7476-4bda-994a-ee0505eff4a5" />
