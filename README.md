@@ -2,21 +2,34 @@
 
 ### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-### How to submit your code for review:
+## Project Description
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+A simple web app to see the weather current weather in a city of your choosing. It uses api.weatherapi.com/v1/ API and take in a city or zipcode. These geographic coordinates are then sent to /api.weatherapi.com/ API to retrieve the current weather conditions and degrees in Fahrenheit.   
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+The application displays the current weather conditions of that location, and the degrees in Fahrenheit.  
+
+## Tech Stack
+
+- **HTML** 
+- **CSS**
+- **JavaScript**
+
+## How to Run or View It
+
+1. Clone or download the repository.
+2. Open `index.html` in a browser or serve the project using a local development server.
+3. Input a city or zipcode of your choosing
+4. Click **search** to retrieve the local weather
+
+The application requires an internet connection to access its external APIs. API availability and credential requirements may affect the results.
+/api.weatherapi.com/ requires a key
+
+## Screenshots and Demo
+
+### Application Interface
+
+![Weather API application interface](img/weather-app-screenshot.png)
+![Weather API application interface](img/weather-app-screenshot(2).png)
+
+
+The interface displays the current weather conditions of that location, and the degrees in Fahrenheit.
