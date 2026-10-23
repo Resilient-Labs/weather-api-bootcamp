@@ -1,22 +1,13 @@
-# 🌦 Project: Weather API
+# Weather Checker
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+Type in a city, get the temperature in Fahrenheit, what it feels like, the conditions, and the little weather icon.
 
-### How to submit your code for review:
+![Weather Checker screenshot](screenshot.jpg)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How the code works
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+`checkTemp()` grabs the city name and fetches OpenWeatherMap with metric units. The API speaks Celsius, so the code converts with `data.main.temp * 9/5 + 32` and trims it to two decimals for display. Then it digs through the nested response: `main.feels_like` for the feels-like temp, `weather[0].description` for conditions, and `weather[0].icon` to build the icon image URL. Everything lands in its own div.
+
+What I find interesting about API apps like this is how little of the work is the "app" and how much is translation. The API nests everything three levels deep and speaks metric; the user wants one flat card in Fahrenheit. The whole program is basically a reshape function with a fetch attached. The Fahrenheit conversion is one line. Finding the data took longer than the rest of the app combined. (Also, the temperature element's CSS class is `.chicken`. No reason. It just is.)
+
+OpenWeatherMap API, plain JavaScript. My code is on the `answer` branch.
