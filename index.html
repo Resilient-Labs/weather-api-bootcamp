@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Gravitas+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Weather Forecast app </title>
+</head>
+<body>
+    
+    <section id="app">
+   
+            <span id="logoHeader">
+        <img src="/image/Logo.gif" alt="Logo" id="logoImg" />
+        <h1>Weatherly</h1>
+
+      <span id="city"></span><span id="country"></span>
+      <div id="searchDiv">
+         <input type="text" id="city-val" placeholder="Enter City ">
+       <input type="text" id="count-val" placeholder="Enter Country( ISO-CODE-ONLY) ">
+       <button type="button">Get Weather</button>
+      </div>
+     
+
+    <section class="weather-wrapper">
+
+        <section class="forecast">
+             <h2>Today's Weather Forecast</h2>
+            <p id="date"></p>
+        <p id="temp"></p>
+        <p id="feels-like"></p>
+        </section>
+
+
+        <section class="hum-wind-containter">
+           
+            <img src="" id="weatherIcon" alt="icon">
+            <div>
+            <h4 id="description"></h4>
+            <h4 id="humid"></h4>
+            <h4 id="wind"></h4>
+            </div>
+         
+        </section>
+         </section>
+    </section>
+
+  
+    <!-- <script src="config.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+</html>
