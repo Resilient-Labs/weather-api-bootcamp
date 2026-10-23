@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+/* clear-fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    background: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+section {
+    color: white;
+    height: auto; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.secOne {
+    width: 80%; 
+    display: flex;
+    align-items: center;
+    gap: 20%; 
+    height: auto; 
+    margin-left: 5rem; 
+}
+
+#countryId {
+    font-size: 25px;
+}
+
+#cityLocation {
+    font-size: 25px;
+}
+
+#temp {
+    font-size: 25px;
+font-weight: bold;
+}
+
+.secTwo {
+    display: flex; 
+    gap: 2rem; 
+    justify-content: center;
+
+}
+button, input {
+    border: 3px solid black; 
+    border-radius: 10px;
+    text-align: center; 
+    width: 20%; 
+}
+
+h2, h3, p {
+    border: 3px solid black; 
+    border-radius: 10px;
+    border-width: 3px solid black;
+
+}
