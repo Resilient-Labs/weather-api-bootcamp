@@ -1,22 +1,29 @@
-# 🌦 Project: Weather API
+# Weather API
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+A simple weather application built using HTML, CSS, and JavaScript.
 
-### How to submit your code for review:
+## About
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This application allows users to enter a city and country to get the current weather conditions for that location. The project uses a weather API to retrieve and display live weather data based on the user's input.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+[Use Weather Tool](https://kelvinimalenowa.github.io/weather-api/)
+
+## Screenshot
+
+![Project Screenshot](assets/mockup.png)
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+- Weather API
+
+## What I Practiced
+
+- Fetching data from an API
+- Working with JSON data
+- Using user input in an API request
+- DOM manipulation
+- Handling errors with API requests
+- Displaying API results on the page
