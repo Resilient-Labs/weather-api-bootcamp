@@ -1,5 +1,7 @@
 # 🌦 Project: Weather API
 
+![homepage](img/homepage.png)
+![homepage](img/homepage1.png)
 A simple and clean weather lookup application that allows users to search for current weather conditions in any city around the world using the [WeatherAPI](https://www.weatherapi.com/).
 
 ### Project Goals
@@ -32,3 +34,7 @@ A simple and clean weather lookup application that allows users to search for cu
 - Dynamic DOM manipulation with getElementById and querySelector
 - Building user-friendly error messages
 - Structuring a front-end project with separate CSS/JS files
+
+**live demo**
+
+https://clauya.github.io/Weather-Api/
