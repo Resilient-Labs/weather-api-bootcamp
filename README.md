@@ -1,22 +1,57 @@
-# 🌦 Project: Weather API
+# 🌤️ Weather Not Whether
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+### JavaScript Weather API Project
 
-### How to submit your code for review:
+## About the Project
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Weather Not Whether is a simple weather application I built to practice working with APIs and JavaScript.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+The goal was to let someone enter a city and country, retrieve weather information from an external API, and display the temperature in Fahrenheit.
+
+## Features
+
+- Enter a city and country.
+- Request weather data from WeatherAPI.
+- Display the temperature in Fahrenheit.
+- Practice updating the page with JavaScript.
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- Fetch API
+- WeatherAPI
+
+## How It Works
+
+1. The user enters a city and country.
+2. JavaScript sends a request to WeatherAPI.
+3. The API returns weather information.
+4. JavaScript displays the temperature in Fahrenheit.
+
+## Getting Started
+
+1. Clone the repository.
+2. Open the project files in a local development environment.
+3. Configure a valid WeatherAPI key.
+4. Make sure the HTML script path points to the correct JavaScript file.
+5. Open the webpage and search for a location.
+
+## What I Learned
+
+This project helped me practice making API requests, reading JSON responses, and displaying information using JavaScript.
+
+## Current Limitations and Future Improvements
+
+- Move the API key out of the client-side source code.
+- Fix the JavaScript file path if needed.
+- Use HTTPS for API requests.
+- Improve error handling and validation.
+- Display more weather information.
+
+## Author
+
+**Kevin Salazar**
+
+[GitHub](https://github.com/KevSal227)
