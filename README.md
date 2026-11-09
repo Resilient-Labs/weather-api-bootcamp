@@ -2,6 +2,10 @@
 
 ### JavaScript Weather API Project
 
+<img width="454" height="301" alt="weather api SS" src="https://github.com/user-attachments/assets/29c1c45e-6cfc-46cb-ba70-6c1fe857ede0" />
+
+
+
 ## About the Project
 
 Weather Not Whether is a simple weather application I built to practice working with APIs and JavaScript.
