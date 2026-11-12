@@ -2,7 +2,8 @@
 
 A lightweight web application that allows users to search for any city or region to instantly get the current weather conditions, temperature, and local location details using WeatherAPI.
 
----
+## Live Demo
+https://camerondcrawley.github.io/weather-api/
 
 ## Features
 
