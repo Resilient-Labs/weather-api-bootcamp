@@ -15,11 +15,13 @@ function findLocation(){
 // }) .catch(err => 
 //   `error is ${err}`
 // )
-fetch(`http://api.weatherapi.com/v1/current.json?key=847b45097ab5449d802160206262209&q=${location}&aqi=no
-`)
+fetch(`https://api.weatherapi.com/v1/current.json?key=847b45097ab5449d802160206262209&q=${encodeURIComponent(location.trim())}&aqi=no`)
 .then(res =>res.json())
 .then(data => {
   console.log(data)
+  if (data.error) {
+    throw new Error(`WeatherAPI error ${data.error.code}: ${data.error.message}`)
+  }
   let temp = data.current
   let locData = data.location
   console.log(temp)
@@ -35,7 +37,8 @@ fetch(`http://api.weatherapi.com/v1/current.json?key=847b45097ab5449d80216020626
 
 }
 ).catch(err => {
-  `error is ${err}`
+  console.error(err)
+  document.querySelector('#placeTemp').innerText = `Error: ${err.message}`
 })
 
 }
