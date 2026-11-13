@@ -10,7 +10,7 @@ function getWeather(){
     const city = document.querySelector('#city').value
     const country = document.querySelector('#country').value
     let temperature = document.querySelector('#weather-report')
-    fetch(`http://api.weatherapi.com/v1/current.json?key=${appConfig.weatherAPIKEY}&q=${city}, ${country}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=${appConfig.weatherAPIKEY}&q=${city}, ${country}`)
         .then(result => result.json()) // parse to json
         .then(data =>{
             console.log(data)
