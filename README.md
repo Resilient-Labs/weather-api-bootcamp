@@ -1,22 +1,34 @@
-# 🌦 Project: Weather API
+# Weather API
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+Enter a city and get today's temperature in Fahrenheit.
 
-### How to submit your code for review:
+A small front-end exercise from the 100Devs bootcamp: a single page that fetches the day's forecast for the city you type in.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## What it does
 
-Example:
+- Takes a city name and fetches its forecast from WeatherAPI.
+- Shows today's average temperature in Fahrenheit, the outside conditions, and the condition icon.
+
+## Tech stack
+
+- HTML, CSS, JavaScript (no build step, no server)
+- WeatherAPI — forecast for the entered city
+
+## How to run it
+
+Open `weather_api/index.html` in a browser, type a city, and click **Get The Weather**. The API key lives in `weather_api/js/config.js`.
+
+
+## Project structure
+
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+weather_api/
+  index.html      - city input, button, and the temperature / conditions / icon it fills in
+  css/style.css   - page styling
+  js/main.js      - the fetch to WeatherAPI and rendering the result
+  js/config.js    - API key
 ```
+
+---
+
+Thay Brown — thaybrown22@gmail.com · https://thaythecoder.netlify.app · https://github.com/tbrown320 · https://www.linkedin.com/in/thaybrown
