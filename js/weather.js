@@ -13,7 +13,7 @@ searchBtn.addEventListener('click', tempWeather)
 function tempWeather() {
     const inputVal = document.querySelector('#cityInput').value
 
-    const url = `http://api.weatherapi.com/v1/current.json?key=177246f7ea794759b8b144355262209&q=${inputVal}&aqi=yes`
+    const url = `https://api.weatherapi.com/v1/current.json?key=177246f7ea794759b8b144355262209&q=${inputVal}&aqi=yes`
 
     fetch(url)
         .then(res => res.json())
