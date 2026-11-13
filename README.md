@@ -57,8 +57,8 @@ This project is a simple weather application. It gives the user a single input f
 4. Type a US city and state into the input, for example `Philadelphia, PA`, and click **Let's check!**
 
 5. Make it your own!
-    - Swap in your own API key from [weatherapi.com](https://www.weatherapi.com/) in `assets/main.js`.
-    - Consider adding more or different data from the response, like humidity, wind, or a weather icon.
-    - Try changing the styling in `assets/main.css` to make it your own!
+- Swap in your own API key from [weatherapi.com](https://www.weatherapi.com/) in `assets/main.js`.
+- Consider adding more or different data from the response, like humidity, wind, or a weather icon.
+- Try changing the styling in `assets/main.css` to make it your own!
 
 Happy Coding! 
