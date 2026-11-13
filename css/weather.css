@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #5a9bf0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+  
+.weatherCard {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 450px;
+  padding: 1.5rem 1.5rem;
+  text-align: center;
+  color: #1e293b;
+}
+
+h1 {
+  font-size: 1.4rem;
+  color: #3a7bd5;
+  margin-bottom: 1.25rem;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d8dee4;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #3a7bd5;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2f66b3;
+}
+
+/* --- ONLY SHOWS AFTER I CLICK ENTER--- */
+
+.resultsBox {
+  display: none;
+  border-top: 1px solid #eee;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+#weatherIcon {
+  width: 90px;
+  height: 90px;
+  display: block;
+  margin: 1rem auto;
+}
+
+#cTemp {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+#condition {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+#time {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+#date {
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+.statsRow {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-size: 1rem;
+}
+
+.stat small {
+  color: #94a3b8;
+  font-size: 1rem;
+}
+
+@media (max-width: 400px) {
+  .weather-card {
+    padding: 1.25rem 1rem;
+  }
+}

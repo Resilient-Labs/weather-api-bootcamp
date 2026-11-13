@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/weather.css">
+</head>
+ 
+<body>
+
+    <div class="weatherCard">
+        <h1>Weather App</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button type="button" id="button">Enter</button>
+
+
+        <!-- ONLY SHOWS UP AFTER I CLICK ENTER -->
+
+        <!-- the emojis wont show up in JS so I put them here instead -->
+        <div class="resultsBox" id="resultsBox">
+            <img id="weatherIcon" src="" alt="">
+            <h2 id="cTemp">°C</h2>
+            <h3 id="condition"></h3>
+            <p class="location">📍 <span id="city"></span>, <span id="country"></span></p>
+            <p id="localTime"></p>
+            <p id="time"></p>
+            <p id="date"></p>
+
+
+            <div class="statsRow">
+                <div class="stat">
+                    <!-- HAD TO NEST THE SPANS BECAUSE I COULDNT ADD THE EMOJI TO JS -->
+                    <span>🌡️ <span id="feelsLike"></span></span>
+                    <small>Feels like</small>
+                </div>
+                <div class="stat">
+                    <span>💧 <span id="humidity"></span></span>
+                    <small>Humidity</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/weather.js"></script>
+</body>
+
+</html>
