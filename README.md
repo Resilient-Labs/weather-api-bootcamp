@@ -7,13 +7,13 @@ A weather app where you type in a city and state and get back the current temper
 This project is a simple weather application. It gives the user a single input for a city and state, a button to check the weather, and a result area that shows the current temperature and the country for that location. The city is passed straight into the API call as a query parameter. Any place the API recognizes will work. This project was forked from [Resilient-Labs/weather-api-bootcamp](https://github.com/Resilient-Labs/weather-api-bootcamp).
 
 ### Live Link: 
-    - To access site, [click here](https://priscilla-ruilova.github.io/Simple-Weather-App/) or use the link in the About section of this repo.
+- To access site, [click here](https://priscilla-ruilova.github.io/Simple-Weather-App/) or use the link in the About section of this repo.
 
 ![screenshot of the weather app](assets/Simple%20Weather%20App.png)
 
 ### Features:
 
-- **City search** — type a city and state into the input (placeholder: `city, state`) and click **Let's check!**.
+- **City search** — type a city and state into the input (placeholder: `city, state`) and click **Let's check!**
 - **Current temperature** — displays the temperature in Fahrenheit as `Temp: 68°F`.
 - **Location info** — displays the country for the searched location as `Country: United States`.
 - **Live API data** — every search makes a fresh request to WeatherAPI's `current.json` endpoint, so the result is the weather right now.
@@ -42,7 +42,7 @@ This project is a simple weather application. It gives the user a single input f
 
 ### How to Use:
 
-1. Clone this repository or the one I forked from above: 
+1. Clone this repository or the one I forked above: 
     ```bash
     git clone https://github.com/priscilla-ruilova/Simple-Weather-App.git.
     ```
