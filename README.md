@@ -61,4 +61,4 @@ This project is a simple weather application. It gives the user a single input f
 - Consider adding more or different data from the response, like humidity, wind, or a weather icon.
 - Try changing the styling in `assets/main.css` to make it your own!
 
-Happy Coding! 
+##Happy Coding! 
