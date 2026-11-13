@@ -54,7 +54,7 @@ This project is a simple weather application. It gives the user a single input f
 
 3. Open `index.html` in your browser — no install step needed.
 
-4. Type a US city and state into the input, for example `Philadelphia, PA`, and click **Let's check!**.
+4. Type a US city and state into the input, for example `Philadelphia, PA`, and click **Let's check!**
 
 5. Make it your own!
     - Swap in your own API key from [weatherapi.com](https://www.weatherapi.com/) in `assets/main.js`.
