@@ -1,0 +1,112 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background: #a8d8ea;
+  color: #16324f;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 40px 20px 60px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 0 0 24px;
+  max-width: 640px;
+}
+
+#app_section {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 28px 24px;
+  width: 100%;
+  max-width: 520px;
+}
+
+#app_section span {
+  display: block;
+  color: #4a6572;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+input {
+  background: #ffffff;
+  color: #16324f;
+  border: 1px solid #4a6572;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 320px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #4a6572;
+}
+
+input:focus {
+  outline: 2px solid #0e7c7b;
+  outline-offset: 2px;
+  border-color: #0e7c7b;
+}
+
+button {
+  background: #0e7c7b;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+button:hover {
+  background: #0a5e5d;
+}
+
+#response_box {
+  border-top: 1px solid #a8d8ea;
+  padding-top: 20px;
+}
+
+#response_box h2 {
+  font-size: 22px;
+  margin: 0 0 8px;
+}
+
+#response_box h3 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #4a6572;
+  margin: 0 0 12px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+img[src=""] {
+  display: none;
+}

@@ -1,0 +1,1 @@
+export const API_KEY = 'YOUR_NEW_WEATHERAPI_KEY_HERE';

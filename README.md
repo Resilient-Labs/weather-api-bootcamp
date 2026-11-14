@@ -2,7 +2,7 @@
 
 Enter a city and get today's temperature in Fahrenheit.
 
-A small front-end exercise from the 100Devs bootcamp: a single page that fetches the day's forecast for the city you type in.
+![Screenshot of live demo](Screenshot.png)
 
 ## What it does
 
@@ -17,7 +17,6 @@ A small front-end exercise from the 100Devs bootcamp: a single page that fetches
 ## How to run it
 
 Open `weather_api/index.html` in a browser, type a city, and click **Get The Weather**. The API key lives in `weather_api/js/config.js`.
-
 
 ## Project structure
 
