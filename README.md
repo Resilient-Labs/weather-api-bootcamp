@@ -12,6 +12,8 @@ Once a city is entered, the application retrieves current weather data and displ
 
 The application also displays a **weather icon that matches the current weather conditions**, giving users a quick visual representation of the weather.
 
+**Live Demo:** [[Live Site](https://smayanja3.github.io/weatherApi/)]
+
 ---
 
 ## 🔎 How It Works
